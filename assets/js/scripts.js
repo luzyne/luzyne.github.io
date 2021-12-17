@@ -67,6 +67,13 @@ function init(){
 
         document.querySelector('html').classList.add('is-transitioning');
         barba.wrapper.classList.add('is-animating');
+        
+        document.getElementById("nav-trigger").onclick = function() {
+            document.getElementById("dark-trigger").checked = false;
+        };
+        document.getElementById("dark-trigger").onclick = function() {
+            document.getElementById("nav-trigger").checked = false;
+        };
 
     });
 
@@ -77,10 +84,25 @@ function init(){
         barba.wrapper.classList.remove('is-animating');
         ga('set', 'page', window.location.pathname);
         ga('send', 'pageview');
+        
+        document.getElementById("nav-trigger").onclick = function() {
+            document.getElementById("dark-trigger").checked = false;
+        };
+        document.getElementById("dark-trigger").onclick = function() {
+            document.getElementById("nav-trigger").checked = false;
+        };
+
     });
 
     // scroll to the top of the page
     barba.hooks.enter(() => {
+        
+        document.getElementById("nav-trigger").onclick = function() {
+            document.getElementById("dark-trigger").checked = false;
+        };
+        document.getElementById("dark-trigger").onclick = function() {
+            document.getElementById("nav-trigger").checked = false;
+        };
 
         window.scrollTo(0, 0);
         ScrollReveal().reveal('.reveal', slideUp);
@@ -88,6 +110,8 @@ function init(){
           all[i].style.left = mousePos;
         }
 
+        initAfterBarba();
+        
     });
 
     barba.init({
@@ -102,15 +126,56 @@ function init(){
         }]
     })
 
-  function getPosition( element ) {
-      var rect = element.getBoundingClientRect();
-      return {
-          x: rect.left,
-          y: rect.top
-      };
-  }
+    function getPosition( element ) {
+        var rect = element.getBoundingClientRect();
+        return {
+            x: rect.left,
+            y: rect.top
+        };
+    }
+
+    function initAfterBarba() {
+
+        const iframe = document.querySelector('iframe');
+        const player = new Vimeo.Player(iframe);
+
+        document.getElementById("play-video").onclick = function() {
+            player.play()
+        };
+
+        document.getElementById("stop-video").onclick = function() {
+            player.pause()
+        };
+
+        document.getElementById("close-video").onclick = function() {
+            player.pause()
+        };
+
+    };
+    initAfterBarba();
+
 }
 
 window.addEventListener('load', function(){
     init();
 });
+
+function menuCheck() {
+    if (document.getElementById("nav-trigger").checked == true) {
+        document.getElementById("dark-trigger").checked = false;
+    }
+}
+
+function darkModeCheck() {
+    if (document.getElementById("dark-trigger").checked == true) {
+        document.getElementById("nav-trigger").checked = false;
+    }
+}
+/*
+document.getElementById("nav-trigger").onclick = function() {
+    document.getElementById("dark-trigger").checked = false;
+};
+document.getElementById("dark-trigger").onclick = function() {
+    document.getElementById("nav-trigger").checked = false;
+};
+*/
