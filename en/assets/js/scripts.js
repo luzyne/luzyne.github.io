@@ -74,7 +74,6 @@ function init(){
         document.getElementById("dark-trigger").onclick = function() {
             document.getElementById("nav-trigger").checked = false;
         };
-
     });
 
     // do something after the transition finishes
@@ -106,6 +105,7 @@ function init(){
 
         window.scrollTo(0, 0);
         ScrollReveal().reveal('.reveal', slideUp);
+        
         for (var i = 0; i < all.length; i++) {
           all[i].style.left = mousePos;
         }
@@ -141,14 +141,17 @@ function init(){
 
         document.getElementById("play-video").onclick = function() {
             player.play()
+            document.querySelector("meta[name='theme-color']").setAttribute("content", "#0000fa")
         };
 
         document.getElementById("stop-video").onclick = function() {
             player.pause()
+            document.querySelector("meta[name='theme-color']").setAttribute("content", "#000")
         };
 
         document.getElementById("close-video").onclick = function() {
             player.pause()
+            document.querySelector("meta[name='theme-color']").setAttribute("content", "#000")
         };
 
     };
@@ -171,11 +174,13 @@ function darkModeCheck() {
         document.getElementById("nav-trigger").checked = false;
     }
 }
-/*
-document.getElementById("nav-trigger").onclick = function() {
-    document.getElementById("dark-trigger").checked = false;
-};
-document.getElementById("dark-trigger").onclick = function() {
-    document.getElementById("nav-trigger").checked = false;
-};
-*/
+
+
+window.addEventListener("scroll", function(){
+   var st = window.pageYOffset || document.documentElement.scrollTop;
+   if (st > 300){
+        document.getElementById("site-header").classList.add("scrolled");
+   } else {
+        document.getElementById("site-header").classList.remove("scrolled");
+   }
+}, false);
