@@ -129,9 +129,9 @@ table td { border: 1px solid #999999; }
 .col-one-third { display: inline-block; width: 32%; padding-right: 30px; vertical-align: top; }
 
 /** Site header */
-.site-header { height: 60px; padding: 30px 60px; box-sizing: border-box; width: 100vw; position: fixed; pointer-events: none; z-index: 1; }
+.site-header { height: 60px; padding: 30px 60px; box-sizing: border-box; width: 100vw; position: fixed; pointer-events: none; z-index: 15; }
 
-.site-header:before { content: " "; pointer-events: none; position: absolute; width: 100%; height: 15vh; top: -15vh; left: 0; z-index: 0; background: black; background: linear-gradient(180deg, black 0%, rgba(0, 0, 0, 0) 100%); -webkit-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); -moz-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); -ms-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); -o-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); }
+.site-header:before { content: " "; pointer-events: none; position: absolute; width: 100%; height: 20vh; top: -20vh; left: 0; z-index: 0; background: black; background: linear-gradient(180deg, black 20%, rgba(0, 0, 0, 0) 100%); -webkit-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); -moz-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); -ms-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); -o-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); }
 
 .site-header:after { content: " "; pointer-events: none; position: absolute; width: 100%; height: 30vh; top: calc(100vh - 240px); left: 0; z-index: 0; background: black; background: linear-gradient(0deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0) 100%); }
 
@@ -145,15 +145,15 @@ table td { border: 1px solid #999999; }
 
 .site-header .wordmark-height:hover > svg > rect, .site-header .wordmark-height:hover > svg > path { fill: #0000fa; -webkit-transition: all 0.2s cubic-bezier(0.25, 1, 0.5, 1); -moz-transition: all 0.2s cubic-bezier(0.25, 1, 0.5, 1); -ms-transition: all 0.2s cubic-bezier(0.25, 1, 0.5, 1); -o-transition: all 0.2s cubic-bezier(0.25, 1, 0.5, 1); transition: all 0.2s cubic-bezier(0.25, 1, 0.5, 1); }
 
-.site-header .dark-mode { opacity: 1; transform: translateY(0); -webkit-transition: all 0.2s cubic-bezier(0.25, 1, 0.5, 1); -moz-transition: all 0.2s cubic-bezier(0.25, 1, 0.5, 1); -ms-transition: all 0.2s cubic-bezier(0.25, 1, 0.5, 1); -o-transition: all 0.2s cubic-bezier(0.25, 1, 0.5, 1); transition: all 0.2s cubic-bezier(0.25, 1, 0.5, 1); }
+.site-header .nav-dark-mode { opacity: 1; pointer-events: auto; transform: translateY(0); -webkit-transition: all 0.2s cubic-bezier(0.25, 1, 0.5, 1); -moz-transition: all 0.2s cubic-bezier(0.25, 1, 0.5, 1); -ms-transition: all 0.2s cubic-bezier(0.25, 1, 0.5, 1); -o-transition: all 0.2s cubic-bezier(0.25, 1, 0.5, 1); transition: all 0.2s cubic-bezier(0.25, 1, 0.5, 1); }
 
-.site-header.scrolled .dark-mode { opacity: 0; transform: translateY(-30px); -webkit-transition: all 0.2s cubic-bezier(0.25, 1, 0.5, 1); -moz-transition: all 0.2s cubic-bezier(0.25, 1, 0.5, 1); -ms-transition: all 0.2s cubic-bezier(0.25, 1, 0.5, 1); -o-transition: all 0.2s cubic-bezier(0.25, 1, 0.5, 1); transition: all 0.2s cubic-bezier(0.25, 1, 0.5, 1); }
+.site-header.scrolled .nav-dark-mode { pointer-events: none; opacity: 0; transform: translateY(-30px); -webkit-transition: all 0.2s cubic-bezier(0.25, 1, 0.5, 1); -moz-transition: all 0.2s cubic-bezier(0.25, 1, 0.5, 1); -ms-transition: all 0.2s cubic-bezier(0.25, 1, 0.5, 1); -o-transition: all 0.2s cubic-bezier(0.25, 1, 0.5, 1); transition: all 0.2s cubic-bezier(0.25, 1, 0.5, 1); }
 
 .site-header.scrolled:before { top: 0; -webkit-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); -moz-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); -ms-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); -o-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); }
 
-.tagline { display: inline-block; position: absolute; width: 100%; left: 0; text-align: center; margin: 0 auto; text-transform: lowercase; color: #fff; }
+.tagline { display: inline-block; position: absolute; width: 100%; left: 0; font-size: 21px; text-align: center; margin: 0 auto; text-transform: lowercase; color: #fff; }
 
-.tagline u { text-underline-offset: 2px; }
+.tagline u { text-decoration-thickness: 1px; text-underline-offset: 2px; }
 
 .tagline .alt-color { font-family: "DM Serif Display", serif; font-weight: 400; }
 

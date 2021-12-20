@@ -184,3 +184,10 @@ window.addEventListener("scroll", function(){
         document.getElementById("site-header").classList.remove("scrolled");
    }
 }, false);
+
+var st = window.pageYOffset || document.documentElement.scrollTop;
+if (st > 300){
+    document.getElementById("site-header").classList.add("scrolled");
+} else {
+    document.getElementById("site-header").classList.remove("scrolled");
+}
