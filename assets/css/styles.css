@@ -131,7 +131,7 @@ table td { border: 1px solid #999999; }
 /** Site header */
 .site-header { height: 60px; padding: 30px 60px; box-sizing: border-box; width: 100vw; position: fixed; pointer-events: none; z-index: 15; }
 
-.site-header:before { content: " "; pointer-events: none; position: absolute; width: 100%; height: 180px; top: -180px; left: 0; z-index: 0; background: black; background: linear-gradient(180deg, black 20%, rgba(0, 0, 0, 0) 100%); -webkit-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); -moz-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); -ms-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); -o-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); }
+.site-header:before { content: " "; pointer-events: none; position: absolute; width: 100%; height: 150px; top: -150px; left: 0; z-index: 0; background: black; background: linear-gradient(180deg, black 30%, rgba(0, 0, 0, 0) 100%); -webkit-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); -moz-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); -ms-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); -o-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); }
 
 .site-header:after { content: " "; pointer-events: none; position: absolute; width: 100%; height: 30vh; top: calc(100vh - 240px); left: 0; z-index: 0; background: black; background: linear-gradient(0deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0) 100%); }
 
@@ -282,9 +282,9 @@ table td { border: 1px solid #999999; }
 
 .pre-gallery { position: relative; cursor: pointer; }
 
-.pre-gallery:before { content: ""; position: absolute; top: 60px; right: calc(25% - 45px); width: 90px; height: 90px; border-radius: 45px; background-color: #0000fa; background-image: url("/assets/images/arrow-right.svg"); background-repeat: no-repeat; background-position: center center; background-size: 45px; box-shadow: 0 10.5px 15px rgba(0, 0, 0, 0.8); z-index: 11; -webkit-transition: all 0.8s cubic-bezier(0.25, 1, 0.5, 1); -moz-transition: all 0.8s cubic-bezier(0.25, 1, 0.5, 1); -ms-transition: all 0.8s cubic-bezier(0.25, 1, 0.5, 1); -o-transition: all 0.8s cubic-bezier(0.25, 1, 0.5, 1); transition: all 0.8s cubic-bezier(0.25, 1, 0.5, 1); }
+.pre-gallery:before { content: ""; position: absolute; top: 60px; right: calc(25% - 45px); width: 90px; height: 90px; border-radius: 45px; background-color: #0000fa; background-image: url("/assets/images/arrow-right.svg"); background-repeat: no-repeat; background-position: center center; background-size: 45px; box-shadow: 0 10.5px 15px rgba(0, 0, 0, 0.5), 0 10.5px 22.5px rgba(0, 0, 250, 0.5); z-index: 11; -webkit-transition: all 0.8s cubic-bezier(0.25, 1, 0.5, 1); -moz-transition: all 0.8s cubic-bezier(0.25, 1, 0.5, 1); -ms-transition: all 0.8s cubic-bezier(0.25, 1, 0.5, 1); -o-transition: all 0.8s cubic-bezier(0.25, 1, 0.5, 1); transition: all 0.8s cubic-bezier(0.25, 1, 0.5, 1); }
 
-.pre-gallery:hover:before { top: 52.5px; box-shadow: 0 15px 30px rgba(0, 0, 0, 0.8); -webkit-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); -moz-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); -ms-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); -o-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); }
+.pre-gallery:hover:before { top: 52.5px; box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5), 0 15px 30px rgba(0, 0, 250, 0.5); -webkit-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); -moz-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); -ms-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); -o-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); }
 
 .pre-gallery img { position: relative; width: 75%; box-shadow: 0 0 60px #000; -webkit-transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1); -moz-transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1); -ms-transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1); -o-transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1); transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1); }
 
@@ -316,19 +316,33 @@ table td { border: 1px solid #999999; }
 
 .pre-gallery img:nth-child(10) { z-index: 1; }
 
-.gallery-container { position: relative; width: 100vw; height: 63vh; margin-top: 30px; margin-left: calc(490px - 50vw); padding: 0 calc(50vw - 490px); grid-column: 1 / span 2; }
+#gallery-container { position: relative; overflow: hidden; width: 100vw; height: 63vh; margin-top: 30px; margin-left: calc(490px - 50vw); padding: 0 calc(50vw - 490px); grid-column: 1 / span 2; }
 
-.gallery-container:before { content: " "; pointer-events: none; position: absolute; width: 600px; height: 63vh; top: 0; right: 0; background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, black 100%); z-index: 10; }
+#gallery-container:before { content: "DRAG"; pointer-events: none; position: absolute; width: 600px; height: 63vh; top: 0; right: 0; font-size: 13.65px; letter-spacing: 1px; text-align: right; line-height: 0; padding-top: 30vh; padding-right: 202.5px; background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, black 100%); z-index: 10; -webkit-transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1); -moz-transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1); -ms-transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1); -o-transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1); transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1); }
 
-.gallery-container:after { content: ""; position: absolute; pointer-events: none; top: calc(31.5vh - 60px); right: 90px; width: 90px; height: 90px; border-radius: 45px; background-color: #0000fa; background-image: url("/assets/images/arrow-right.svg"); background-repeat: no-repeat; background-position: center center; background-size: 45px; box-shadow: 0 10.5px 15px rgba(0, 0, 0, 0.8); z-index: 11; -webkit-transition: all 0.8s cubic-bezier(0.25, 1, 0.5, 1); -moz-transition: all 0.8s cubic-bezier(0.25, 1, 0.5, 1); -ms-transition: all 0.8s cubic-bezier(0.25, 1, 0.5, 1); -o-transition: all 0.8s cubic-bezier(0.25, 1, 0.5, 1); transition: all 0.8s cubic-bezier(0.25, 1, 0.5, 1); }
+#gallery-container:after { content: ""; pointer-events: none; position: absolute; top: calc(30vh - 45px); right: 90px; width: 90px; height: 90px; border-radius: 45px; background-color: #0000fa; background-image: url("/assets/images/arrow-right.svg"); background-repeat: no-repeat; background-position: center center; background-size: 45px; box-shadow: 0 7.5px 15px rgba(0, 0, 0, 0.5), 0 7.5px 22.5px rgba(0, 0, 250, 0.5); z-index: 11; -webkit-transition: all 0.8s cubic-bezier(0.25, 1, 0.5, 1); -moz-transition: all 0.8s cubic-bezier(0.25, 1, 0.5, 1); -ms-transition: all 0.8s cubic-bezier(0.25, 1, 0.5, 1); -o-transition: all 0.8s cubic-bezier(0.25, 1, 0.5, 1); transition: all 0.8s cubic-bezier(0.25, 1, 0.5, 1); }
 
-#post-gallery { position: absolute; width: 100%; height: 100%; margin-left: calc(490px - 50vw); padding: 0 calc(50vw - 490px); grid-column: 1 / span 2; overflow-x: scroll; overflow-y: hidden; white-space: nowrap; -ms-overflow-style: none; /* IE and Edge */ scrollbar-width: none; /* Firefox */ }
+#gallery-container.scrolled:before { content: ""; opacity: 0.5; -webkit-transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1); -moz-transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1); -ms-transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1); -o-transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1); transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1); }
 
-#post-gallery::-webkit-scrollbar { display: none; }
+#gallery-container.scrolled:after { right: -150px; -webkit-transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1); -moz-transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1); -ms-transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1); -o-transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1); transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1); }
 
-#post-gallery img { display: inline-block; height: 60vh; padding-right: 1vh; }
+#post-gallery { position: absolute; width: 100%; height: 100%; margin-left: calc(490px - 50vw); padding: 0 0 0 calc(50vw - 490px); grid-column: 1 / span 2; overflow-x: scroll; overflow-y: hidden; white-space: nowrap; -webkit-overflow-scrolling: touch; -ms-overflow-style: none; scrollbar-width: none; }
 
-#post-gallery img:last-child { padding-right: calc(50vw - 490px); }
+#post-gallery::-webkit-scrollbar { -webkit-appearance: none; display: none; }
+
+#post-gallery .card { position: relative; }
+
+#post-gallery .card.image, #post-gallery .card.video { position: relative; display: inline-block; height: 60vh; width: auto; padding-right: 1vh; }
+
+#post-gallery .card.image:last-child, #post-gallery .card.video:last-child { padding-right: calc(50vw - 490px); }
+
+#post-gallery .card.video:before { content: ''; display: inline-block; position: absolute; pointer-events: none; box-sizing: border-box; width: 100%; height: 30px; left: calc(50% - 22.5px); top: calc(30vh - 30px); border-style: solid; border-width: 30px 0 30px 45px; border-color: transparent transparent transparent #fff; margin: 0 auto; padding: 0; z-index: 11; -webkit-transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1); -moz-transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1); -ms-transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1); -o-transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1); transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1); }
+
+#post-gallery .card.video:hover:before { -webkit-transition: all 0.2s cubic-bezier(0.25, 1, 0.5, 1); -moz-transition: all 0.2s cubic-bezier(0.25, 1, 0.5, 1); -ms-transition: all 0.2s cubic-bezier(0.25, 1, 0.5, 1); -o-transition: all 0.2s cubic-bezier(0.25, 1, 0.5, 1); transition: all 0.2s cubic-bezier(0.25, 1, 0.5, 1); }
+
+#post-gallery img { position: relative; display: inline-block; height: 60vh; opacity: 0.6; -webkit-transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1); -moz-transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1); -ms-transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1); -o-transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1); transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1); }
+
+#post-gallery img:hover { opacity: 1; -webkit-transition: all 0.2s cubic-bezier(0.25, 1, 0.5, 1); -moz-transition: all 0.2s cubic-bezier(0.25, 1, 0.5, 1); -ms-transition: all 0.2s cubic-bezier(0.25, 1, 0.5, 1); -o-transition: all 0.2s cubic-bezier(0.25, 1, 0.5, 1); transition: all 0.2s cubic-bezier(0.25, 1, 0.5, 1); }
 
 #post-gallery.dragging img { pointer-events: none; }
 

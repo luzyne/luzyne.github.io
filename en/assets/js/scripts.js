@@ -91,6 +91,14 @@ function init(){
             document.getElementById("nav-trigger").checked = false;
         };
 
+        let bottomDOM = document.getElementsByTagName("body")[0]
+        let newScript = document.createElement("script")
+        //const oldScript = document.querySelector(".post-scripts")
+        newScript.src = "/assets/js/post-scripts.js"
+        newScript.className = "post-scripts"
+        //oldScript.remove()
+        bottomDOM.appendChild(newScript)
+
     });
 
     // scroll to the top of the page
@@ -192,48 +200,12 @@ if (st > 300){
     document.getElementById("site-header").classList.remove("scrolled");
 }
 
+document.getElementById("post-gallery").addEventListener("scroll", function(){
+   var st = this.scrollLeft;
+   if (st > 100){
+        document.getElementById("gallery-container").classList.add("scrolled");
+   } else {
+        document.getElementById("gallery-container").classList.remove("scrolled");
+   }
+}, false);
 
-
-/*
-const ele = document.getElementById('post-gallery');
-
-let pos = { top: 0, left: 0, x: 0, y: 0 };
-
-const mouseDownHandler = function (e) {
-    ele.style.cursor = 'grabbing';
-    ele.style.userSelect = 'none';
-    ele.classList.add('dragging');
-    pos = {
-        // The current scroll
-        left: ele.scrollLeft,
-        top: ele.scrollTop,
-        // Get the current mouse position
-        x: e.clientX,
-        y: e.clientY,
-    };
-
-    document.addEventListener('mousemove', mouseMoveHandler);
-    document.addEventListener('mouseup', mouseUpHandler);
-};
-
-const mouseMoveHandler = function (e) {
-    // How far the mouse has been moved
-    const dx = e.clientX - pos.x;
-    const dy = e.clientY - pos.y;
-
-    // Scroll the element
-    ele.scrollTop = pos.top - dy;
-    ele.scrollLeft = pos.left - dx;
-};
-
-const mouseUpHandler = function () {
-    document.removeEventListener('mousemove', mouseMoveHandler);
-    document.removeEventListener('mouseup', mouseUpHandler);
-
-    ele.style.cursor = 'grab';
-    ele.style.removeProperty('user-select');
-    ele.classList.remove('dragging');
-};
-
-ele.addEventListener('mousedown', mouseDownHandler);
-*/
