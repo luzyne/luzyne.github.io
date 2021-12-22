@@ -215,10 +215,17 @@ function init(){
             }, false);
         }
 
-        new Splide( '.splide', {
-            type   : 'loop',
-            padding: '20%',
-        }).mount();
+        if (document.getElementById('gallery-modal')) {
+            new Splide( '.splide', {
+                type : 'loop',
+                start: 1,
+                gap: '2vw',
+                arrows: true,
+                pagination: true,
+                focus : 'center',
+                autoWidth :true,
+            }).mount();
+        };
 
         const iframe = document.querySelector('iframe');
         const player = new Vimeo.Player(iframe);
