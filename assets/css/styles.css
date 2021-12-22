@@ -405,7 +405,7 @@ ul.post-list li h3 a:hover .hover_thumbnail { opacity: 1; margin-left: 30px; -we
 
 .dark-mode .vertical { display: inline-block; font-size: 12.6px; text-transform: uppercase; letter-spacing: 1px; line-height: 1; text-align: left; white-space: nowrap; margin: 0; padding: 0; writing-mode: tb-rl; transform: rotate(-180deg); }
 
-.dark-icon, .light-icon { cursor: pointer; display: block; width: 36.75px; height: 36.75px; border-radius: 18.375px; padding: 0; margin-bottom: 21px; line-height: 1; }
+.dark-icon, .light-icon { cursor: pointer; display: block; width: 36.75px; height: 36.75px; border-radius: 18.375px; background-color: #000; padding: 0; margin-bottom: 21px; line-height: 1; }
 
 .dark-icon > svg, .light-icon > svg { width: 36.75px; height: 36.75px; padding: 0; -webkit-transition: all 1s cubic-bezier(0.25, 1, 0.5, 1); -moz-transition: all 1s cubic-bezier(0.25, 1, 0.5, 1); -ms-transition: all 1s cubic-bezier(0.25, 1, 0.5, 1); -o-transition: all 1s cubic-bezier(0.25, 1, 0.5, 1); transition: all 1s cubic-bezier(0.25, 1, 0.5, 1); }
 
