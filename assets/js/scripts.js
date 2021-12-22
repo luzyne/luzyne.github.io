@@ -215,6 +215,11 @@ function init(){
             }, false);
         }
 
+        new Splide( '.splide', {
+            type   : 'loop',
+            padding: '20%',
+        }).mount();
+
         const iframe = document.querySelector('iframe');
         const player = new Vimeo.Player(iframe);
 

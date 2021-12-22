@@ -35,6 +35,7 @@
 {"@type":"BlogPosting","headline":"Citroën","dateModified":"2021-11-29T17:25:13-05:00","datePublished":"2021-11-29T17:25:13-05:00","url":"http://localhost:4000/work/citroen.html","description":"Apud has gentes, quarum initium ab Assyriis ad Nili cataractas porrigitur et confinia Blemmyarum, omnes cdfrtfra sunt bellatores seminudi coloratis sagulis pube tenus amicti. graciliumque camelorum per diversa Apud has gentes, quarum initium ab Assyriis ad Nili cataractas porrigitur et confinia Blemmyarum, omnes pari sorte sunt bellatores seminudi coloratis sagulis pube tenus amicti.Apud has gentes, quarum initium ab Assyriis ad Nili cataractas porrigitur et confinia Blemmyarum, omnes pari sorte sunt bellatores seminudi coloratis sagulis pube tenus amicti. Graciliumque camelorum per diversa Apud has gentes, quarum initium ab Assyriis ad Nili cataractas porrigitur et confinia Blemmyarum, omnes pari sorte sunt bellatores seminudi coloratis sagulis pube tenus amicti. Results mque oculos fat multas spe ctare ctas’ French You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated. Jekyll requires blog post files to be named according to the following format: YEAR-MONTH-DAY-title.MARKUP Where YEAR is a four-digit number, MONTH and DAY are both two-digit numbers, and MARKUP is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works. Check out the Jekyll docs for more info on how to get the most out of Jekyll. File all bugs/feature requests at Jekyll’s GitHub repo. If you have questions, you can ask them on Jekyll Talk.","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/work/citroen.html"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="stylesheet" href="/assets/css/splide-core.min.css">
   <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="L&amp;rsquo;Uzyne - Brand Activation Group" />
   </head>
 
@@ -120,12 +121,33 @@
   </div>
 
   <div class="post-content two-columns e-content reveal" itemprop="articleBody">
-    <div class="col-left margin-bottom pre-gallery">
-  <p><img src="/assets/images/citroen/one.jpg" alt="Image One" />
-<img src="/assets/images/citroen/two.jpg" alt="Image Two" /></p>
+    <div id="gallery-modal">
+  <a id="stop-video" href="#gallery" class="close"><span class="close-btn"><svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M16.1924 14.7782L8.41421 7L7 8.41421L14.7782 16.1924L7 23.9706L8.41421 25.3848L16.1924 17.6066L23.9706 25.3848L25.3848 23.9706L17.6066 16.1924L25.3848 8.41422L23.9706 7L16.1924 14.7782Z" fill="white" /></svg></span></a>
+  <div class="modal-content">
+    <div class="splide">
+      <div class="splide__track">
+        <ul class="splide__list">
+          <li class="splide__slide">
+            <img style="max-height: 80vh" src="/assets/images/citroen/one.jpg" alt="one" />
+          </li>
+          <li class="splide__slide">
+            <iframe src="https://player.vimeo.com/video/656483532?h=030d037b39" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+          </li>
+          <li class="splide__slide">
+            <img style="max-height: 80vh" src="/assets/images/citroen/two.jpg" alt="one" />
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
 </div>
 
-<div class="col-right padding-top margin-bottom reveal">
+<div class="col-left pre-gallery">
+<a href="#gallery-modal"><img src="/assets/images/citroen/one.jpg" alt="image One" /></a>
+<img src="/assets/images/citroen/two.jpg" alt="image Two" />
+</div>
+
+<div class="col-right padding-top reveal">
   <p>Apud has gentes, quarum initium ab Assyriis ad Nili cataractas porrigitur et confinia Blemmyarum, omnes <a href="/">cdfrtfra</a> sunt bellatores seminudi coloratis sagulis pube tenus amicti.</p>
 
   <p>graciliumque camelorum per diversa Apud has gentes, quarum initium ab Assyriis ad Nili cataractas porrigitur et <a href="https://www.google.com">confinia Blemmyarum</a>, omnes pari sorte sunt bellatores seminudi coloratis sagulis pube tenus amicti.Apud has gentes, quarum initium ab Assyriis ad Nili cataractas porrigitur et confinia Blemmyarum, omnes pari sorte sunt bellatores seminudi coloratis sagulis pube tenus amicti.</p>
@@ -133,7 +155,7 @@
   <p>Graciliumque camelorum per diversa Apud has gentes, quarum initium ab Assyriis ad Nili cataractas porrigitur et confinia <a href="https://www.google.com">Blemmyarum</a>, omnes pari sorte sunt bellatores seminudi coloratis sagulis pube tenus amicti.</p>
 </div>
 
-<div class="col-whole margin-bottom reveal">
+<div id="gallery" class="col-whole padding-top margin-bottom reveal">
 <div id="gallery-container"><div id="post-gallery">
   <div class="card image"><img src="/assets/images/citroen/one.jpg" alt="one" /></div>
   <div class="card video"><img src="/assets/images/citroen/two.jpg" alt="one" /></div>
