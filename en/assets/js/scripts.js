@@ -216,15 +216,29 @@ function init(){
         }
 
         if (document.getElementById('gallery-modal')) {
-            new Splide( '.splide', {
+            var splide = new Splide( '.splide', {
                 type : 'loop',
-                start: 1,
                 gap: '2vw',
                 arrows: true,
+                wheel: true,
+                waitForTransition: true,
                 pagination: true,
                 focus : 'center',
                 autoWidth :true,
-            }).mount();
+            });
+            splide.mount();
+
+            const cards = document.getElementsByClassName('card');
+            for (var i = 0; i < cards.length; i++) {
+                const slide = parseInt(String(i));
+                cards[i].onclick = function() {
+                    splide.go(slide);
+                }
+            }
+
+            document.getElementById('open-modal').onclick = function() {
+                splide.go(0);
+            }
         };
 
         const iframe = document.querySelector('iframe');
@@ -293,4 +307,3 @@ document.getElementById("post-gallery").addEventListener("scroll", function(){
         document.getElementById("gallery-container").classList.remove("scrolled");
    }
 }, false);
-

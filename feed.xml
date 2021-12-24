@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-12-22T17:59:32-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">L’Uzyne - Brand Activation Group</title><subtitle>L&amp;rsquo;Uzyne est un groupe indépendant d’activation de marque spécialisé en Retail, Outstore, Sport et Esport.</subtitle><entry xml:lang="fr"><title type="html">Oryx</title><link href="http://localhost:4000/work/oryx.html" rel="alternate" type="text/html" title="Oryx" /><published>2021-11-29T17:25:13-05:00</published><updated>2021-11-29T17:25:13-05:00</updated><id>http://localhost:4000/work/oryx</id><content type="html" xml:base="http://localhost:4000/work/oryx.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-12-23T22:32:40-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">L’Uzyne - Brand Activation Group</title><subtitle>L&amp;rsquo;Uzyne est un groupe indépendant d’activation de marque spécialisé en Retail, Outstore, Sport et Esport.</subtitle><entry xml:lang="fr"><title type="html">Oryx</title><link href="http://localhost:4000/work/oryx.html" rel="alternate" type="text/html" title="Oryx" /><published>2021-11-29T17:25:13-05:00</published><updated>2021-11-29T17:25:13-05:00</updated><id>http://localhost:4000/work/oryx</id><content type="html" xml:base="http://localhost:4000/work/oryx.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;iframe src=&quot;https://player.vimeo.com/video/656483532?h=030d037b39&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
@@ -16,39 +16,197 @@
 &lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="work" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated. Jekyll requires blog post files to be named according to the following format: YEAR-MONTH-DAY-title.MARKUP Where YEAR is a four-digit number, MONTH and DAY are both two-digit numbers, and MARKUP is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works. Jekyll also offers powerful support for code snippets: def print_hi(name) puts &quot;Hi, #{name}&quot; end print_hi('Tom') #=&amp;gt; prints 'Hi, Tom' to STDOUT. Check out the Jekyll docs for more info on how to get the most out of Jekyll. File all bugs/feature requests at Jekyll’s GitHub repo. If you have questions, you can ask them on Jekyll Talk.</summary></entry><entry xml:lang="fr"><title type="html">Kronenbourg</title><link href="http://localhost:4000/work/kronenbourg.html" rel="alternate" type="text/html" title="Kronenbourg" /><published>2021-11-29T17:25:13-05:00</published><updated>2021-11-29T17:25:13-05:00</updated><id>http://localhost:4000/work/kronenbourg</id><content type="html" xml:base="http://localhost:4000/work/kronenbourg.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="work" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated. Jekyll requires blog post files to be named according to the following format: YEAR-MONTH-DAY-title.MARKUP Where YEAR is a four-digit number, MONTH and DAY are both two-digit numbers, and MARKUP is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works. Jekyll also offers powerful support for code snippets: def print_hi(name) puts &quot;Hi, #{name}&quot; end print_hi('Tom') #=&amp;gt; prints 'Hi, Tom' to STDOUT. Check out the Jekyll docs for more info on how to get the most out of Jekyll. File all bugs/feature requests at Jekyll’s GitHub repo. If you have questions, you can ask them on Jekyll Talk.</summary></entry><entry xml:lang="fr"><title type="html">Kronenbourg</title><link href="http://localhost:4000/work/kronenbourg.html" rel="alternate" type="text/html" title="Kronenbourg" /><published>2021-11-29T17:25:13-05:00</published><updated>2021-11-29T17:25:13-05:00</updated><id>http://localhost:4000/work/kronenbourg</id><content type="html" xml:base="http://localhost:4000/work/kronenbourg.html">&lt;div id=&quot;gallery-modal&quot;&gt;
+  &lt;a id=&quot;stop-video&quot; href=&quot;#gallery&quot; class=&quot;close&quot;&gt;&lt;span class=&quot;close-btn&quot;&gt;&lt;svg viewBox=&quot;0 0 32 32&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; clip-rule=&quot;evenodd&quot; d=&quot;M16.1924 14.7782L8.41421 7L7 8.41421L14.7782 16.1924L7 23.9706L8.41421 25.3848L16.1924 17.6066L23.9706 25.3848L25.3848 23.9706L17.6066 16.1924L25.3848 8.41422L23.9706 7L16.1924 14.7782Z&quot; fill=&quot;white&quot; /&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/a&gt;
+  &lt;div class=&quot;modal-content&quot;&gt;
+    &lt;div class=&quot;splide&quot;&gt;
+      &lt;div class=&quot;splide__track&quot;&gt;
+        &lt;ul class=&quot;splide__list&quot;&gt;
+          &lt;li class=&quot;splide__slide&quot;&gt;
+            &lt;figure class=&quot;splide__slide__container&quot;&gt;
+              &lt;img src=&quot;/assets/images/kronenbourg/kro_001.jpg&quot; alt=&quot;one&quot; /&gt;
+              &lt;figcaption&gt;This is a caption example&lt;/figcaption&gt;
+            &lt;/figure&gt;
+          &lt;/li&gt;
+          &lt;li class=&quot;splide__slide&quot;&gt;
+            &lt;div class=&quot;splide__slide__container&quot;&gt;&lt;img src=&quot;/assets/images/kronenbourg/kro_002.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/div&gt;
+          &lt;/li&gt;
+          &lt;li class=&quot;splide__slide&quot;&gt;
+            &lt;div class=&quot;splide__slide__container&quot;&gt;&lt;img src=&quot;/assets/images/kronenbourg/kro_003.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/div&gt;
+          &lt;/li&gt;
+          &lt;li class=&quot;splide__slide&quot;&gt;
+            &lt;div class=&quot;splide__slide__container&quot;&gt;&lt;img src=&quot;/assets/images/kronenbourg/kro_004.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/div&gt;
+          &lt;/li&gt;
+          &lt;li class=&quot;splide__slide&quot;&gt;
+            &lt;div class=&quot;splide__slide__container&quot;&gt;&lt;img src=&quot;/assets/images/kronenbourg/kro_005.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/div&gt;
+          &lt;/li&gt;
+          &lt;li class=&quot;splide__slide&quot;&gt;
+            &lt;div class=&quot;splide__slide__container&quot;&gt;&lt;img src=&quot;/assets/images/kronenbourg/kro_006.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/div&gt;
+          &lt;/li&gt;
+          &lt;li class=&quot;splide__slide&quot;&gt;
+            &lt;div class=&quot;splide__slide__container&quot;&gt;&lt;img src=&quot;/assets/images/kronenbourg/kro_007.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/div&gt;
+          &lt;/li&gt;
+          &lt;li class=&quot;splide__slide&quot;&gt;
+            &lt;div class=&quot;splide__slide__container&quot;&gt;&lt;img src=&quot;/assets/images/kronenbourg/kro_008.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/div&gt;
+          &lt;/li&gt;
+          &lt;li class=&quot;splide__slide&quot;&gt;
+            &lt;div class=&quot;splide__slide__container&quot;&gt;&lt;img src=&quot;/assets/images/kronenbourg/kro_009.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/div&gt;
+          &lt;/li&gt;
+          &lt;li class=&quot;splide__slide&quot;&gt;
+            &lt;div class=&quot;splide__slide__container&quot;&gt;&lt;img src=&quot;/assets/images/kronenbourg/kro_010.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/div&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 
-&lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
+&lt;div class=&quot;col-left pre-gallery&quot;&gt;
+&lt;a id=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;img src=&quot;/assets/images/kronenbourg/kro_a.jpg&quot; alt=&quot;image One&quot; /&gt;&lt;/a&gt;
+&lt;img src=&quot;/assets/images/kronenbourg/kro_b.jpg&quot; alt=&quot;image Two&quot; /&gt;
+&lt;/div&gt;
 
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;col-right padding-top reveal&quot;&gt;
+  &lt;p&gt;Apud has gentes, quarum initium ab Assyriis ad Nili cataractas porrigitur et confinia Blemmyarum, omnes &lt;a href=&quot;/&quot;&gt;cdfrtfra&lt;/a&gt; sunt bellatores seminudi coloratis sagulis pube tenus amicti.&lt;/p&gt;
 
-&lt;p&gt;Where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MARKUP&lt;/code&gt; is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+  &lt;p&gt;graciliumque camelorum per diversa Apud has gentes, quarum initium ab Assyriis ad Nili cataractas porrigitur et &lt;a href=&quot;https://www.google.com&quot;&gt;confinia Blemmyarum&lt;/a&gt;, omnes pari sorte sunt bellatores seminudi coloratis sagulis pube tenus amicti.Apud has gentes, quarum initium ab Assyriis ad Nili cataractas porrigitur et confinia Blemmyarum, omnes pari sorte sunt bellatores seminudi coloratis sagulis pube tenus amicti.&lt;/p&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+  &lt;p&gt;Graciliumque camelorum per diversa Apud has gentes, quarum initium ab Assyriis ad Nili cataractas porrigitur et confinia &lt;a href=&quot;https://www.google.com&quot;&gt;Blemmyarum&lt;/a&gt;, omnes pari sorte sunt bellatores seminudi coloratis sagulis pube tenus amicti.&lt;/p&gt;
+&lt;/div&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;div id=&quot;gallery&quot; class=&quot;col-whole padding-top margin-bottom reveal&quot;&gt;
+&lt;div id=&quot;gallery-container&quot;&gt;&lt;div id=&quot;post-gallery&quot;&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/kronenbourg/kro_001.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/kronenbourg/kro_002.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/kronenbourg/kro_003.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/kronenbourg/kro_004.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/kronenbourg/kro_005.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/kronenbourg/kro_006.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/kronenbourg/kro_007.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/kronenbourg/kro_008.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/kronenbourg/kro_009.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/kronenbourg/kro_010.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="work" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated. Jekyll requires blog post files to be named according to the following format: YEAR-MONTH-DAY-title.MARKUP Where YEAR is a four-digit number, MONTH and DAY are both two-digit numbers, and MARKUP is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works. Jekyll also offers powerful support for code snippets: def print_hi(name) puts &quot;Hi, #{name}&quot; end print_hi('Tom') #=&amp;gt; prints 'Hi, Tom' to STDOUT. Check out the Jekyll docs for more info on how to get the most out of Jekyll. File all bugs/feature requests at Jekyll’s GitHub repo. If you have questions, you can ask them on Jekyll Talk.</summary></entry><entry xml:lang="fr"><title type="html">Deliveroo</title><link href="http://localhost:4000/work/deliveroo.html" rel="alternate" type="text/html" title="Deliveroo" /><published>2021-11-29T17:25:13-05:00</published><updated>2021-11-29T17:25:13-05:00</updated><id>http://localhost:4000/work/deliveroo</id><content type="html" xml:base="http://localhost:4000/work/deliveroo.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+&lt;div class=&quot;col-left&quot;&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;Results mque oculos fat multas spe ctare ctas&lt;span class=&quot;alt-color&quot;&gt;’&lt;/span&gt;&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/div&gt;
 
-&lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
+&lt;div class=&quot;col-right padding-top margin-bottom reveal&quot;&gt;
+  &lt;p&gt;French You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/code&gt;&lt;/p&gt;
+  &lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
 
-&lt;p&gt;Where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MARKUP&lt;/code&gt; is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+  &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+  &lt;p&gt;Where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MARKUP&lt;/code&gt; is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;/div&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;div class=&quot;col-whole reveal&quot;&gt;
+  &lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="work" /><summary type="html">This is a caption example Apud has gentes, quarum initium ab Assyriis ad Nili cataractas porrigitur et confinia Blemmyarum, omnes cdfrtfra sunt bellatores seminudi coloratis sagulis pube tenus amicti. graciliumque camelorum per diversa Apud has gentes, quarum initium ab Assyriis ad Nili cataractas porrigitur et confinia Blemmyarum, omnes pari sorte sunt bellatores seminudi coloratis sagulis pube tenus amicti.Apud has gentes, quarum initium ab Assyriis ad Nili cataractas porrigitur et confinia Blemmyarum, omnes pari sorte sunt bellatores seminudi coloratis sagulis pube tenus amicti. Graciliumque camelorum per diversa Apud has gentes, quarum initium ab Assyriis ad Nili cataractas porrigitur et confinia Blemmyarum, omnes pari sorte sunt bellatores seminudi coloratis sagulis pube tenus amicti. Results mque oculos fat multas spe ctare ctas’ French You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated. Jekyll requires blog post files to be named according to the following format: YEAR-MONTH-DAY-title.MARKUP Where YEAR is a four-digit number, MONTH and DAY are both two-digit numbers, and MARKUP is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works. Check out the Jekyll docs for more info on how to get the most out of Jekyll. File all bugs/feature requests at Jekyll’s GitHub repo. If you have questions, you can ask them on Jekyll Talk.</summary></entry><entry xml:lang="fr"><title type="html">Deliveroo</title><link href="http://localhost:4000/work/deliveroo.html" rel="alternate" type="text/html" title="Deliveroo" /><published>2021-11-29T17:25:13-05:00</published><updated>2021-11-29T17:25:13-05:00</updated><id>http://localhost:4000/work/deliveroo</id><content type="html" xml:base="http://localhost:4000/work/deliveroo.html">&lt;div id=&quot;gallery-modal&quot;&gt;
+  &lt;a id=&quot;stop-video&quot; href=&quot;#gallery&quot; class=&quot;close&quot;&gt;&lt;span class=&quot;close-btn&quot;&gt;&lt;svg viewBox=&quot;0 0 32 32&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; clip-rule=&quot;evenodd&quot; d=&quot;M16.1924 14.7782L8.41421 7L7 8.41421L14.7782 16.1924L7 23.9706L8.41421 25.3848L16.1924 17.6066L23.9706 25.3848L25.3848 23.9706L17.6066 16.1924L25.3848 8.41422L23.9706 7L16.1924 14.7782Z&quot; fill=&quot;white&quot; /&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/a&gt;
+  &lt;div class=&quot;modal-content&quot;&gt;
+    &lt;div class=&quot;splide&quot;&gt;
+      &lt;div class=&quot;splide__track&quot;&gt;
+        &lt;ul class=&quot;splide__list&quot;&gt;
+          &lt;li class=&quot;splide__slide&quot;&gt;
+            &lt;figure class=&quot;splide__slide__container&quot;&gt;
+              &lt;img src=&quot;/assets/images/deliveroo/deliveroo_001.jpg&quot; alt=&quot;one&quot; /&gt;
+              &lt;figcaption&gt;This is a caption example&lt;/figcaption&gt;
+            &lt;/figure&gt;
+          &lt;/li&gt;
+          &lt;li class=&quot;splide__slide&quot;&gt;
+            &lt;div class=&quot;splide__slide__container&quot;&gt;&lt;img src=&quot;/assets/images/deliveroo/deliveroo_002.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/div&gt;
+          &lt;/li&gt;
+          &lt;li class=&quot;splide__slide&quot;&gt;
+            &lt;div class=&quot;splide__slide__container&quot;&gt;&lt;img src=&quot;/assets/images/deliveroo/deliveroo_003.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/div&gt;
+          &lt;/li&gt;
+          &lt;li class=&quot;splide__slide&quot;&gt;
+            &lt;div class=&quot;splide__slide__container&quot;&gt;&lt;img src=&quot;/assets/images/deliveroo/deliveroo_004.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/div&gt;
+          &lt;/li&gt;
+          &lt;li class=&quot;splide__slide&quot;&gt;
+            &lt;div class=&quot;splide__slide__container&quot;&gt;&lt;img src=&quot;/assets/images/deliveroo/deliveroo_005.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/div&gt;
+          &lt;/li&gt;
+          &lt;li class=&quot;splide__slide&quot;&gt;
+            &lt;div class=&quot;splide__slide__container&quot;&gt;&lt;img src=&quot;/assets/images/deliveroo/deliveroo_006.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/div&gt;
+          &lt;/li&gt;
+          &lt;li class=&quot;splide__slide&quot;&gt;
+            &lt;div class=&quot;splide__slide__container&quot;&gt;&lt;img src=&quot;/assets/images/deliveroo/deliveroo_007.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/div&gt;
+          &lt;/li&gt;
+          &lt;li class=&quot;splide__slide&quot;&gt;
+            &lt;div class=&quot;splide__slide__container&quot;&gt;&lt;img src=&quot;/assets/images/deliveroo/deliveroo_008.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/div&gt;
+          &lt;/li&gt;
+          &lt;li class=&quot;splide__slide&quot;&gt;
+            &lt;div class=&quot;splide__slide__container&quot;&gt;&lt;img src=&quot;/assets/images/deliveroo/deliveroo_009.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/div&gt;
+          &lt;/li&gt;
+          &lt;li class=&quot;splide__slide&quot;&gt;
+            &lt;div class=&quot;splide__slide__container&quot;&gt;&lt;img src=&quot;/assets/images/deliveroo/deliveroo_010.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/div&gt;
+          &lt;/li&gt;
+          &lt;li class=&quot;splide__slide&quot;&gt;
+            &lt;div class=&quot;splide__slide__container&quot;&gt;&lt;img src=&quot;/assets/images/deliveroo/deliveroo_011.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/div&gt;
+          &lt;/li&gt;
+          &lt;li class=&quot;splide__slide&quot;&gt;
+            &lt;div class=&quot;splide__slide__container&quot;&gt;&lt;img src=&quot;/assets/images/deliveroo/deliveroo_012.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/div&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="work" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated. Jekyll requires blog post files to be named according to the following format: YEAR-MONTH-DAY-title.MARKUP Where YEAR is a four-digit number, MONTH and DAY are both two-digit numbers, and MARKUP is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works. Jekyll also offers powerful support for code snippets: def print_hi(name) puts &quot;Hi, #{name}&quot; end print_hi('Tom') #=&amp;gt; prints 'Hi, Tom' to STDOUT. Check out the Jekyll docs for more info on how to get the most out of Jekyll. File all bugs/feature requests at Jekyll’s GitHub repo. If you have questions, you can ask them on Jekyll Talk.</summary></entry><entry xml:lang="fr"><title type="html">Milka</title><link href="http://localhost:4000/work/milka.html" rel="alternate" type="text/html" title="Milka" /><published>2021-11-29T17:25:13-05:00</published><updated>2021-11-29T17:25:13-05:00</updated><id>http://localhost:4000/work/milka</id><content type="html" xml:base="http://localhost:4000/work/milka.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+&lt;div class=&quot;col-left pre-gallery&quot;&gt;
+&lt;a id=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;img src=&quot;/assets/images/deliveroo/deliveroo_a.jpg&quot; alt=&quot;image One&quot; /&gt;&lt;/a&gt;
+&lt;img src=&quot;/assets/images/deliveroo/deliveroo_b.jpg&quot; alt=&quot;image Two&quot; /&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;col-right padding-top reveal&quot;&gt;
+  &lt;p&gt;Apud has gentes, quarum initium ab Assyriis ad Nili cataractas porrigitur et confinia Blemmyarum, omnes &lt;a href=&quot;/&quot;&gt;cdfrtfra&lt;/a&gt; sunt bellatores seminudi coloratis sagulis pube tenus amicti.&lt;/p&gt;
+
+  &lt;p&gt;graciliumque camelorum per diversa Apud has gentes, quarum initium ab Assyriis ad Nili cataractas porrigitur et &lt;a href=&quot;https://www.google.com&quot;&gt;confinia Blemmyarum&lt;/a&gt;, omnes pari sorte sunt bellatores seminudi coloratis sagulis pube tenus amicti.Apud has gentes, quarum initium ab Assyriis ad Nili cataractas porrigitur et confinia Blemmyarum, omnes pari sorte sunt bellatores seminudi coloratis sagulis pube tenus amicti.&lt;/p&gt;
+
+  &lt;p&gt;Graciliumque camelorum per diversa Apud has gentes, quarum initium ab Assyriis ad Nili cataractas porrigitur et confinia &lt;a href=&quot;https://www.google.com&quot;&gt;Blemmyarum&lt;/a&gt;, omnes pari sorte sunt bellatores seminudi coloratis sagulis pube tenus amicti.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;gallery&quot; class=&quot;col-whole padding-top margin-bottom reveal&quot;&gt;
+&lt;div id=&quot;gallery-container&quot;&gt;&lt;div id=&quot;post-gallery&quot;&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/deliveroo/deliveroo_001.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/deliveroo/deliveroo_002.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/deliveroo/deliveroo_003.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/deliveroo/deliveroo_004.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/deliveroo/deliveroo_005.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/deliveroo/deliveroo_006.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/deliveroo/deliveroo_007.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/deliveroo/deliveroo_008.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/deliveroo/deliveroo_009.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/deliveroo/deliveroo_010.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/deliveroo/deliveroo_011.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/deliveroo/deliveroo_012.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;col-left&quot;&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;Results mque oculos fat multas spe ctare ctas&lt;span class=&quot;alt-color&quot;&gt;’&lt;/span&gt;&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;col-right padding-top margin-bottom reveal&quot;&gt;
+  &lt;p&gt;French You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+  &lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
+
+  &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/code&gt;&lt;/p&gt;
+
+  &lt;p&gt;Where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MARKUP&lt;/code&gt; is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;col-whole reveal&quot;&gt;
+  &lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="work" /><summary type="html">This is a caption example Apud has gentes, quarum initium ab Assyriis ad Nili cataractas porrigitur et confinia Blemmyarum, omnes cdfrtfra sunt bellatores seminudi coloratis sagulis pube tenus amicti. graciliumque camelorum per diversa Apud has gentes, quarum initium ab Assyriis ad Nili cataractas porrigitur et confinia Blemmyarum, omnes pari sorte sunt bellatores seminudi coloratis sagulis pube tenus amicti.Apud has gentes, quarum initium ab Assyriis ad Nili cataractas porrigitur et confinia Blemmyarum, omnes pari sorte sunt bellatores seminudi coloratis sagulis pube tenus amicti. Graciliumque camelorum per diversa Apud has gentes, quarum initium ab Assyriis ad Nili cataractas porrigitur et confinia Blemmyarum, omnes pari sorte sunt bellatores seminudi coloratis sagulis pube tenus amicti. Results mque oculos fat multas spe ctare ctas’ French You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated. Jekyll requires blog post files to be named according to the following format: YEAR-MONTH-DAY-title.MARKUP Where YEAR is a four-digit number, MONTH and DAY are both two-digit numbers, and MARKUP is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works. Check out the Jekyll docs for more info on how to get the most out of Jekyll. File all bugs/feature requests at Jekyll’s GitHub repo. If you have questions, you can ask them on Jekyll Talk.</summary></entry><entry xml:lang="fr"><title type="html">Milka</title><link href="http://localhost:4000/work/milka.html" rel="alternate" type="text/html" title="Milka" /><published>2021-11-29T17:25:13-05:00</published><updated>2021-11-29T17:25:13-05:00</updated><id>http://localhost:4000/work/milka</id><content type="html" xml:base="http://localhost:4000/work/milka.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
 
@@ -71,54 +229,57 @@
       &lt;div class=&quot;splide__track&quot;&gt;
         &lt;ul class=&quot;splide__list&quot;&gt;
           &lt;li class=&quot;splide__slide&quot;&gt;
-            &lt;div class=&quot;slide-content&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_001.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/div&gt;
+            &lt;figure class=&quot;splide__slide__container&quot;&gt;
+              &lt;img src=&quot;/assets/images/citroen/Citroen_001.jpg&quot; alt=&quot;one&quot; /&gt;
+              &lt;figcaption&gt;This is a caption example&lt;/figcaption&gt;
+            &lt;/figure&gt;
           &lt;/li&gt;
           &lt;li class=&quot;splide__slide&quot;&gt;
-            &lt;div class=&quot;slide-content&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_002.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/div&gt;
+            &lt;div class=&quot;splide__slide__container&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_002.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/div&gt;
           &lt;/li&gt;
           &lt;li class=&quot;splide__slide&quot;&gt;
-            &lt;div class=&quot;slide-content&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_003.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/div&gt;
+            &lt;div class=&quot;splide__slide__container&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_003.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/div&gt;
           &lt;/li&gt;
           &lt;li class=&quot;splide__slide&quot;&gt;
-            &lt;div class=&quot;slide-content&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_013.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/div&gt;
+            &lt;div class=&quot;splide__slide__container&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_013.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/div&gt;
           &lt;/li&gt;
           &lt;li class=&quot;splide__slide&quot;&gt;
-            &lt;div class=&quot;slide-content&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_004.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/div&gt;
+            &lt;div class=&quot;splide__slide__container&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_004.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/div&gt;
           &lt;/li&gt;
           &lt;li class=&quot;splide__slide&quot;&gt;
-            &lt;div class=&quot;slide-content&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_005.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/div&gt;
+            &lt;div class=&quot;splide__slide__container&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_005.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/div&gt;
           &lt;/li&gt;
           &lt;li class=&quot;splide__slide&quot;&gt;
-            &lt;div class=&quot;slide-content&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_006.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/div&gt;
+            &lt;div class=&quot;splide__slide__container&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_006.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/div&gt;
           &lt;/li&gt;
           &lt;li class=&quot;splide__slide&quot;&gt;
-            &lt;div class=&quot;slide-content&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_007.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/div&gt;
+            &lt;div class=&quot;splide__slide__container&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_007.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/div&gt;
           &lt;/li&gt;
           &lt;li class=&quot;splide__slide&quot;&gt;
-            &lt;div class=&quot;slide-content&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_008.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/div&gt;
+            &lt;div class=&quot;splide__slide__container&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_008.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/div&gt;
           &lt;/li&gt;
           &lt;li class=&quot;splide__slide&quot;&gt;
-            &lt;div class=&quot;slide-content&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_009.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/div&gt;
+            &lt;div class=&quot;splide__slide__container&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_009.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/div&gt;
           &lt;/li&gt;
           &lt;li class=&quot;splide__slide&quot;&gt;
-            &lt;div class=&quot;slide-content&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_010.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/div&gt;
+            &lt;div class=&quot;splide__slide__container&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_010.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/div&gt;
           &lt;/li&gt;
           &lt;li class=&quot;splide__slide&quot;&gt;
-            &lt;div class=&quot;slide-content&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_011.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/div&gt;
+            &lt;div class=&quot;splide__slide__container&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_011.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/div&gt;
           &lt;/li&gt;
           &lt;li class=&quot;splide__slide&quot;&gt;
-            &lt;div class=&quot;slide-content&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_012.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/div&gt;
+            &lt;div class=&quot;splide__slide__container&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_012.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/div&gt;
           &lt;/li&gt;
           &lt;li class=&quot;splide__slide&quot;&gt;
-            &lt;div class=&quot;slide-content&quot;&gt;&lt;img src=&quot;/assets/images/citroen/one.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/div&gt;
+            &lt;div class=&quot;splide__slide__container&quot;&gt;&lt;img src=&quot;/assets/images/citroen/one.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/div&gt;
           &lt;/li&gt;
           &lt;li class=&quot;splide__slide&quot;&gt;
             &lt;div class=&quot;width: 1280px; height: 720px&quot;&gt;
-              &lt;div class=&quot;slide-content landscape&quot;&gt;&lt;iframe src=&quot;https://player.vimeo.com/video/656483532?h=030d037b39&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen; picture-in-picture&quot; allowfullscreen=&quot;&quot; style=&quot;width:100%;height:100%;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+              &lt;div class=&quot;splide__slide__container landscape&quot;&gt;&lt;iframe src=&quot;https://player.vimeo.com/video/656483532?h=030d037b39&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen; picture-in-picture&quot; allowfullscreen=&quot;&quot; style=&quot;width:100%;height:100%;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
             &lt;/div&gt;
           &lt;/li&gt;
           &lt;li class=&quot;splide__slide&quot;&gt;
-            &lt;div class=&quot;slide-content&quot;&gt;&lt;img src=&quot;/assets/images/citroen/two.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/div&gt;
+            &lt;div class=&quot;splide__slide__container&quot;&gt;&lt;img src=&quot;/assets/images/citroen/two.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/div&gt;
           &lt;/li&gt;
         &lt;/ul&gt;
       &lt;/div&gt;
@@ -127,7 +288,7 @@
 &lt;/div&gt;
 
 &lt;div class=&quot;col-left pre-gallery&quot;&gt;
-&lt;a href=&quot;#gallery-modal&quot;&gt;&lt;img src=&quot;/assets/images/citroen/one.jpg&quot; alt=&quot;image One&quot; /&gt;&lt;/a&gt;
+&lt;a id=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;img src=&quot;/assets/images/citroen/one.jpg&quot; alt=&quot;image One&quot; /&gt;&lt;/a&gt;
 &lt;img src=&quot;/assets/images/citroen/two.gif&quot; alt=&quot;image Two&quot; /&gt;
 &lt;/div&gt;
 
@@ -141,19 +302,19 @@
 
 &lt;div id=&quot;gallery&quot; class=&quot;col-whole padding-top margin-bottom reveal&quot;&gt;
 &lt;div id=&quot;gallery-container&quot;&gt;&lt;div id=&quot;post-gallery&quot;&gt;
-  &lt;div class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_001.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/div&gt;
-  &lt;div class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_002.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/div&gt;
-  &lt;div class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_003.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/div&gt;
-  &lt;div class=&quot;card video&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_013.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/div&gt;
-  &lt;div class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_004.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/div&gt;
-  &lt;div class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_005.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/div&gt;
-  &lt;div class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_006.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/div&gt;
-  &lt;div class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_007.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/div&gt;
-  &lt;div class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_008.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/div&gt;
-  &lt;div class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_009.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/div&gt;
-  &lt;div class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_010.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/div&gt;
-  &lt;div class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_011.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/div&gt;
-  &lt;div class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_012.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/div&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_001.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_002.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card video&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_003.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_013.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_004.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_005.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_006.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_007.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_008.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_009.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_010.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_011.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_012.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
 &lt;/div&gt;&lt;/div&gt;
 &lt;/div&gt;
 
@@ -175,4 +336,4 @@
 
 &lt;div class=&quot;col-whole reveal&quot;&gt;
   &lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="work" /><summary type="html">Apud has gentes, quarum initium ab Assyriis ad Nili cataractas porrigitur et confinia Blemmyarum, omnes cdfrtfra sunt bellatores seminudi coloratis sagulis pube tenus amicti. graciliumque camelorum per diversa Apud has gentes, quarum initium ab Assyriis ad Nili cataractas porrigitur et confinia Blemmyarum, omnes pari sorte sunt bellatores seminudi coloratis sagulis pube tenus amicti.Apud has gentes, quarum initium ab Assyriis ad Nili cataractas porrigitur et confinia Blemmyarum, omnes pari sorte sunt bellatores seminudi coloratis sagulis pube tenus amicti. Graciliumque camelorum per diversa Apud has gentes, quarum initium ab Assyriis ad Nili cataractas porrigitur et confinia Blemmyarum, omnes pari sorte sunt bellatores seminudi coloratis sagulis pube tenus amicti. Results mque oculos fat multas spe ctare ctas’ French You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated. Jekyll requires blog post files to be named according to the following format: YEAR-MONTH-DAY-title.MARKUP Where YEAR is a four-digit number, MONTH and DAY are both two-digit numbers, and MARKUP is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works. Check out the Jekyll docs for more info on how to get the most out of Jekyll. File all bugs/feature requests at Jekyll’s GitHub repo. If you have questions, you can ask them on Jekyll Talk.</summary></entry></feed>
+&lt;/div&gt;</content><author><name></name></author><category term="work" /><summary type="html">This is a caption example Apud has gentes, quarum initium ab Assyriis ad Nili cataractas porrigitur et confinia Blemmyarum, omnes cdfrtfra sunt bellatores seminudi coloratis sagulis pube tenus amicti. graciliumque camelorum per diversa Apud has gentes, quarum initium ab Assyriis ad Nili cataractas porrigitur et confinia Blemmyarum, omnes pari sorte sunt bellatores seminudi coloratis sagulis pube tenus amicti.Apud has gentes, quarum initium ab Assyriis ad Nili cataractas porrigitur et confinia Blemmyarum, omnes pari sorte sunt bellatores seminudi coloratis sagulis pube tenus amicti. Graciliumque camelorum per diversa Apud has gentes, quarum initium ab Assyriis ad Nili cataractas porrigitur et confinia Blemmyarum, omnes pari sorte sunt bellatores seminudi coloratis sagulis pube tenus amicti. Results mque oculos fat multas spe ctare ctas’ French You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated. Jekyll requires blog post files to be named according to the following format: YEAR-MONTH-DAY-title.MARKUP Where YEAR is a four-digit number, MONTH and DAY are both two-digit numbers, and MARKUP is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works. Check out the Jekyll docs for more info on how to get the most out of Jekyll. File all bugs/feature requests at Jekyll’s GitHub repo. If you have questions, you can ask them on Jekyll Talk.</summary></entry></feed>
