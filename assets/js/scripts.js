@@ -74,6 +74,7 @@ function init(){
         document.getElementById("dark-trigger").onclick = function() {
             document.getElementById("nav-trigger").checked = false;
         };
+
     });
 
     // do something after the transition finishes
@@ -216,28 +217,22 @@ function init(){
         }
 
         if (document.getElementById('gallery-modal')) {
-            var splide = new Splide( '.splide', {
-                type : 'loop',
-                gap: '2vw',
-                arrows: true,
-                wheel: true,
-                waitForTransition: true,
-                pagination: true,
-                focus : 'center',
-                autoWidth :true,
+            var flkty = new Flickity( '.slider', {
+              wrapAround: true,
+              imagesLoaded: true,
+              arrowShape: 'M19.6915 51.9335L47.8165 80.0585L51.6835 76.1915L28.2264 52.7344H79V47.2656H28.2264L51.6835 23.8085L47.8165 19.9415L19.6915 48.0665L17.758 50L19.6915 51.9335Z'
             });
-            splide.mount();
 
             const cards = document.getElementsByClassName('card');
             for (var i = 0; i < cards.length; i++) {
                 const slide = parseInt(String(i));
                 cards[i].onclick = function() {
-                    splide.go(slide);
+                    flkty.selectCell( slide, true, false )
                 }
             }
 
             document.getElementById('open-modal').onclick = function() {
-                splide.go(0);
+                flkty.selectCell( 0, true, false )
             }
         };
 
