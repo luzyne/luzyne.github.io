@@ -236,6 +236,19 @@ function init(){
             }
         };
 
+        const slow = document.getElementsByClassName('parallax-slow');
+        new simpleParallax(slow, {
+            overflow: true,
+            transition: 'linear'
+        });
+
+        const fast = document.getElementsByClassName('parallax-fast');
+        new simpleParallax(fast, {
+            overflow: true,
+            scale: 1.75,
+            transition: 'linear'
+        });
+
         const iframe = document.querySelector('iframe');
         const player = new Vimeo.Player(iframe);
 
