@@ -65,33 +65,20 @@ function init(){
     // do something before the transition starts
     barba.hooks.before(() => {
 
-        document.querySelector('html').classList.add('is-transitioning');
-        barba.wrapper.classList.add('is-animating');
-        
-        document.getElementById("nav-trigger").onclick = function() {
-            document.getElementById("dark-trigger").checked = false;
-        };
-        document.getElementById("dark-trigger").onclick = function() {
-            document.getElementById("nav-trigger").checked = false;
-        };
+        //document.querySelector('html').classList.add('is-transitioning');
+        //barba.wrapper.classList.add('is-animating');
 
     });
 
     // do something after the transition finishes
     barba.hooks.after(() => {
 
-        document.querySelector('html').classList.remove('is-transitioning');
-        barba.wrapper.classList.remove('is-animating');
+        //document.querySelector('html').classList.remove('is-transitioning');
+        //barba.wrapper.classList.remove('is-animating');
         ga('set', 'page', window.location.pathname);
         ga('send', 'pageview');
-        
-        document.getElementById("nav-trigger").onclick = function() {
-            document.getElementById("dark-trigger").checked = false;
-        };
-        document.getElementById("dark-trigger").onclick = function() {
-            document.getElementById("nav-trigger").checked = false;
-        };
 
+        /*
         let bottomDOM = document.getElementsByTagName("body")[0]
         let newScript = document.createElement("script")
         //const oldScript = document.querySelector(".post-scripts")
@@ -99,18 +86,11 @@ function init(){
         newScript.className = "post-scripts"
         //oldScript.remove()
         bottomDOM.appendChild(newScript)
-
+        */
     });
 
     // scroll to the top of the page
     barba.hooks.enter(() => {
-        
-        document.getElementById("nav-trigger").onclick = function() {
-            document.getElementById("dark-trigger").checked = false;
-        };
-        document.getElementById("dark-trigger").onclick = function() {
-            document.getElementById("nav-trigger").checked = false;
-        };
 
         window.scrollTo(0, 0);
         ScrollReveal().reveal('.reveal', slideUp);
@@ -118,8 +98,6 @@ function init(){
         for (var i = 0; i < all.length; i++) {
           all[i].style.left = mousePos;
         }
-
-        initAfterBarba();
         
     });
 
@@ -132,145 +110,148 @@ function init(){
             enter() {
                 loaderAway();
             }
-        }]
-    })
+        }],
+        views: [{
+            namespace: 'home',
+            beforeEnter(data) {
 
-    function getPosition( element ) {
-        var rect = element.getBoundingClientRect();
-        return {
-            x: rect.left,
-            y: rect.top
-        };
-    }
+                const iframe = document.querySelector('iframe');
+                const player = new Vimeo.Player(iframe);
 
-    function initAfterBarba() {
+                document.getElementById("play-video").onclick = function() {
+                    player.play();
+                    document.querySelector("meta[name='theme-color']").setAttribute("content", "#0000fa");
+                };
 
-        if (document.getElementById('post-gallery')) {
-            // Slider dragging
-            const slider = document.getElementById('post-gallery');
-            let isDown = false;
-            let startX;
-            let scrollLeft;
+                function pauseVideo() {
+                    player.pause();
+                    document.querySelector("meta[name='theme-color']").setAttribute("content", "#000000");
+                };
 
-            slider.addEventListener('mousedown', (e) => {
-                isDown = true;
-                slider.classList.add('active');
-                startX = e.pageX - slider.offsetLeft;
-                scrollLeft = slider.scrollLeft;
-                cancelMomentumTracking();
-            });
-
-            slider.addEventListener('mouseleave', () => {
-                isDown = false;
-                slider.classList.remove('active');
-            });
-
-            slider.addEventListener('mouseup', () => {
-                isDown = false;
-                slider.classList.remove('active');
-                beginMomentumTracking();
-            });
-
-            slider.addEventListener('mousemove', (e) => {
-                if (!isDown) return;
-                e.preventDefault();
-                const x = e.pageX - slider.offsetLeft;
-                const walk = (x - startX); //scroll-fast
-                var prevScrollLeft = slider.scrollLeft;
-                slider.scrollLeft = scrollLeft - walk;
-                velX = slider.scrollLeft - prevScrollLeft;
-            });
-
-            // Momentum 
-            var velX = 0;
-            var momentumID;
-
-            slider.addEventListener('wheel', (e) => {
-                cancelMomentumTracking();
-            });
-
-            function beginMomentumTracking() {
-                cancelMomentumTracking();
-                momentumID = requestAnimationFrame(momentumLoop);
+                document.getElementById("stop-video").onclick = function() {
+                    pauseVideo();
+                };
             }
+        }, {
+            namespace: 'work',
+            beforeEnter(data) {
 
-            function cancelMomentumTracking() {
-                cancelAnimationFrame(momentumID);
-            }
+                // Slider dragging
+                let slider = document.getElementsByClassName('post-gallery');
+                slider = slider[slider.length-1];
+                let isDown = false;
+                let startX;
+                let scrollLeft;
 
-            function momentumLoop() {
-                slider.scrollLeft += velX * 2;
-                velX *= 0.95;
-                if (Math.abs(velX) > 0.5) {
+                slider.addEventListener('mousedown', (e) => {
+                    isDown = true;
+                    slider.classList.add('active');
+                    startX = e.pageX - slider.offsetLeft;
+                    scrollLeft = slider.scrollLeft;
+                    cancelMomentumTracking();
+                });
+
+                slider.addEventListener('mouseleave', () => {
+                    isDown = false;
+                    slider.classList.remove('active');
+                });
+
+                slider.addEventListener('mouseup', () => {
+                    isDown = false;
+                    slider.classList.remove('active');
+                    beginMomentumTracking();
+                });
+
+                slider.addEventListener('mousemove', (e) => {
+                    if (!isDown) return;
+                    e.preventDefault();
+                    const x = e.pageX - slider.offsetLeft;
+                    const walk = (x - startX); //scroll-fast
+                    var prevScrollLeft = slider.scrollLeft;
+                    slider.scrollLeft = scrollLeft - walk;
+                    velX = slider.scrollLeft - prevScrollLeft;
+                });
+
+                // Momentum 
+                var velX = 0;
+                var momentumID;
+
+                slider.addEventListener('wheel', (e) => {
+                    cancelMomentumTracking();
+                });
+
+                function beginMomentumTracking() {
+                    cancelMomentumTracking();
                     momentumID = requestAnimationFrame(momentumLoop);
                 }
-            }
 
-            document.getElementById("post-gallery").addEventListener("scroll", function(){
-               var st = this.scrollLeft;
-               if (st > 100){
-                    document.getElementById("gallery-container").classList.add("scrolled");
-               } else {
-                    document.getElementById("gallery-container").classList.remove("scrolled");
-               }
-            }, false);
-        }
-
-        if (document.getElementById('gallery-modal')) {
-            var flkty = new Flickity( '.slider', {
-              wrapAround: true,
-              imagesLoaded: true,
-              arrowShape: 'M19.6915 51.9335L47.8165 80.0585L51.6835 76.1915L28.2264 52.7344H79V47.2656H28.2264L51.6835 23.8085L47.8165 19.9415L19.6915 48.0665L17.758 50L19.6915 51.9335Z'
-            });
-
-            const cards = document.getElementsByClassName('card');
-            for (var i = 0; i < cards.length; i++) {
-                const slide = parseInt(String(i));
-                cards[i].onclick = function() {
-                    flkty.selectCell( slide, true, false )
+                function cancelMomentumTracking() {
+                    cancelAnimationFrame(momentumID);
                 }
+
+                function momentumLoop() {
+                    slider.scrollLeft += velX * 2;
+                    velX *= 0.95;
+                    if (Math.abs(velX) > 0.5) {
+                        momentumID = requestAnimationFrame(momentumLoop);
+                    }
+                }
+
+
+                // Hide drag indicator
+                slider.addEventListener("scroll", function(){
+                   var st = this.scrollLeft;
+                   if (st > 100){
+                        document.getElementById("gallery-container").classList.add("scrolled");
+                   } else {
+                        document.getElementById("gallery-container").classList.remove("scrolled");
+                   }
+                }, false);
+
+
+
+                //Gallery
+                let gallery = document.getElementsByClassName('slider');
+                gallery = gallery[gallery.length-1];
+                var flkty = new Flickity( gallery, {
+                  wrapAround: true,
+                  imagesLoaded: true,
+                  arrowShape: 'M19.6915 51.9335L47.8165 80.0585L51.6835 76.1915L28.2264 52.7344H79V47.2656H28.2264L51.6835 23.8085L47.8165 19.9415L19.6915 48.0665L17.758 50L19.6915 51.9335Z'
+                });
+
+                const cards = document.getElementsByClassName('card');
+                for (var i = 0; i < cards.length; i++) {
+                    const slide = parseInt(String(i));
+                    cards[i].onclick = function() {
+                        flkty.selectCell( slide, true, false )
+                    }
+                }
+
+                document.getElementById('open-modal').onclick = function() {
+                    flkty.selectCell( 0, true, false )
+                }
+
+
+                //Pre-gallery
+                var parallaxSlow = document.querySelector('.parallax-slow');
+                var slow = new simpleParallax(parallaxSlow, {
+                    overflow: true,
+                    transition: 'linear'
+                });
+
+                var parallaxFast = document.querySelector('.parallax-fast');
+                var fast = new simpleParallax(parallaxFast, {
+                    overflow: true,
+                    scale: 1.75,
+                    transition: 'linear'
+                });
+
+            },
+            beforeLeave(data) {
+
             }
-
-            document.getElementById('open-modal').onclick = function() {
-                flkty.selectCell( 0, true, false )
-            }
-        };
-
-        const slow = document.getElementsByClassName('parallax-slow');
-        new simpleParallax(slow, {
-            overflow: true,
-            transition: 'linear'
-        });
-
-        const fast = document.getElementsByClassName('parallax-fast');
-        new simpleParallax(fast, {
-            overflow: true,
-            scale: 1.75,
-            transition: 'linear'
-        });
-
-        const iframe = document.querySelector('iframe');
-        const player = new Vimeo.Player(iframe);
-
-        if (document.getElementById('play-video')) {
-            document.getElementById("play-video").onclick = function() {
-                player.play()
-                document.querySelector("meta[name='theme-color']").setAttribute("content", "#0000fa")
-            };
-
-            document.getElementById("stop-video").onclick = function() {
-                player.pause()
-                document.querySelector("meta[name='theme-color']").setAttribute("content", "#000")
-            };
-
-            document.getElementById("close-video").onclick = function() {
-                player.pause()
-                document.querySelector("meta[name='theme-color']").setAttribute("content", "#000")
-            };
-        }
-
-    };
-    initAfterBarba();
+        }]
+    })
 
 }
 
@@ -306,12 +287,3 @@ if (st > 300){
 } else {
     document.getElementById("site-header").classList.remove("scrolled");
 }
-
-document.getElementById("post-gallery").addEventListener("scroll", function(){
-   var st = this.scrollLeft;
-   if (st > 100){
-        document.getElementById("gallery-container").classList.add("scrolled");
-   } else {
-        document.getElementById("gallery-container").classList.remove("scrolled");
-   }
-}, false);
