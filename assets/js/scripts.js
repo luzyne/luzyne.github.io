@@ -1,4 +1,23 @@
 function init(){
+    
+    var parallaxSlow = document.querySelector('.parallax-slow');
+    var parallaxFast = document.querySelector('.parallax-fast');
+    
+    window.scrollTo(0, 0);
+
+    var slow = new Rellax(parallaxSlow, {
+        speed: 1,
+        center: true,
+        //wrapper:'.site-header',
+        //relativeToWrapper: true,
+    });
+
+    var fast = new Rellax(parallaxFast, {
+        speed: 3,
+        center: true,
+        //wrapper:'.site-header',
+        //relativeToWrapper: true,
+    });
 
     var slideUp = {
         distance: '100px',
@@ -11,7 +30,7 @@ function init(){
         reset: false
     };
 
-    ScrollReveal().reveal('.reveal', slideUp);    
+    ScrollReveal().reveal('.reveal', slideUp);
 
     var all = document.getElementsByClassName('hover_thumbnail');
     var postsPos = document.getElementById('posts');
@@ -31,33 +50,33 @@ function init(){
     // reset position of the loading screen
     gsap.set(loader, {
         scaleX: 1.25,
-        scaleY: 2,
+        scaleY: 2, 
         rotation: 0,
         xPercent: -125,
-        transformOrigin: 'left center', 
+        transformOrigin: 'left center',
         autoAlpha: 1
     });
 
     function loaderIn() {
         // GSAP tween to strech the loading screen across the whole screen
-        return gsap.fromTo(loader, 
+        return gsap.fromTo(loader,
             {
                 xPercent: -125
             },
             { 
                 duration: 0.6,
                 xPercent: 0,
-                ease: 'Power3.easeIn', 
+                ease: 'Power3.easeIn',
                 transformOrigin: 'left center'
             });
     }
 
     function loaderAway() {
         // GSAP tween to hide loading screen
-        return gsap.to(loader, { 
+        return gsap.to(loader, {
             duration: 0.5,
-            xPercent: 125, 
-            transformOrigin: 'right center', 
+            xPercent: 125,
+            transformOrigin: 'right center',
             ease: 'Power3.easeOut'
         });
     }
@@ -219,7 +238,7 @@ function init(){
                   arrowShape: 'M19.6915 51.9335L47.8165 80.0585L51.6835 76.1915L28.2264 52.7344H79V47.2656H28.2264L51.6835 23.8085L47.8165 19.9415L19.6915 48.0665L17.758 50L19.6915 51.9335Z'
                 });
 
-                const cards = document.getElementsByClassName('card');
+                const cards = data.next.container.getElementsByClassName('card');
                 for (var i = 0; i < cards.length; i++) {
                     const slide = parseInt(String(i));
                     cards[i].onclick = function() {
@@ -231,23 +250,8 @@ function init(){
                     flkty.selectCell( 0, true, false )
                 }
 
-
-                //Pre-gallery
-                var parallaxSlow = document.querySelector('.parallax-slow');
-                var slow = new simpleParallax(parallaxSlow, {
-                    overflow: true,
-                    transition: 'linear'
-                });
-
-                var parallaxFast = document.querySelector('.parallax-fast');
-                var fast = new simpleParallax(parallaxFast, {
-                    overflow: true,
-                    scale: 1.75,
-                    transition: 'linear'
-                });
-
             },
-            beforeLeave(data) {
+            afterLeave(data) {
 
             }
         }]
