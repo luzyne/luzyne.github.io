@@ -1,9 +1,10 @@
 function init(){
-    
+
     var parallaxSlow = document.querySelector('.parallax-slow');
     var parallaxFast = document.querySelector('.parallax-fast');
     
     window.scrollTo(0, 0);
+    console.log(parallaxSlow.scrollTop);
 
     var slow = new Rellax(parallaxSlow, {
         speed: 1,
@@ -37,7 +38,7 @@ function init(){
     var offX = 30;
     var mousePos;
 
-    const onMouseMove = (e) =>{
+    const onMouseMove = (e) => {
       for (var i = 0; i < all.length; i++) {
         mousePos = (e.pageX + offX ) + 'px';
         all[i].style.left = mousePos;
