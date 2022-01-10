@@ -31,6 +31,8 @@ p { color: #b3b3b3; }
 
 p strong { color: #fff; }
 
+p sup { font-size: 75%; }
+
 div { box-sizing: border-box; }
 
 .alt-color { color: #0000fa; }
