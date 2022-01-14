@@ -4,7 +4,6 @@ function init(){
     var parallaxFast = document.querySelector('.parallax-fast');
     
     window.scrollTo(0, 0);
-    console.log(parallaxSlow.scrollTop);
 
     var slow = new Rellax(parallaxSlow, {
         speed: 1,
