@@ -279,6 +279,7 @@ function darkModeCheck() {
 window.addEventListener("scroll", function(){
    var st = window.pageYOffset || document.documentElement.scrollTop;
    if (st > 300){
+        document.getElementById("dark-trigger").checked = false;
         document.getElementById("site-header").classList.add("scrolled");
    } else {
         document.getElementById("site-header").classList.remove("scrolled");
@@ -287,6 +288,7 @@ window.addEventListener("scroll", function(){
 
 var st = window.pageYOffset || document.documentElement.scrollTop;
 if (st > 300){
+    document.getElementById("dark-trigger").checked = false;
     document.getElementById("site-header").classList.add("scrolled");
 } else {
     document.getElementById("site-header").classList.remove("scrolled");
