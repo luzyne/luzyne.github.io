@@ -174,7 +174,9 @@ function init(){
                     document.querySelector("meta[name='theme-color']").setAttribute("content", "#0000fa");
                 }
 
-                document.getElementById('close-modal').onclick = function() {
+                let closeModal = document.getElementsByClassName('close-modal');
+                closeModal = closeModal[closeModal.length-1];
+                closeModal.onclick = function() {
                     document.querySelector("meta[name='theme-color']").setAttribute("content", "#000000");
                 }
             }
@@ -267,6 +269,7 @@ function init(){
 
                 document.getElementById('open-modal').onclick = function() {
                     flkty.selectCell( 0, true, true );
+                    document.querySelector("meta[name='theme-color']").setAttribute("content", "#0000fa");
                 }
 
                 const cards = data.next.container.getElementsByClassName('card');
@@ -274,7 +277,14 @@ function init(){
                     const slide = parseInt(String(i));
                     cards[i].onclick = function() {
                         flkty.selectCell( slide, true, true );
+                        document.querySelector("meta[name='theme-color']").setAttribute("content", "#0000fa");
                     }
+                }
+
+                let closeModal = document.getElementsByClassName('close-modal');
+                closeModal = closeModal[closeModal.length-1];
+                closeModal.onclick = function() {
+                    document.querySelector("meta[name='theme-color']").setAttribute("content", "#000000");
                 }
 
             },
