@@ -34,7 +34,7 @@ function init(){
 
     var all = document.getElementsByClassName('hover_thumbnail');
     var postsPos = document.getElementById('posts');
-    var offX = 30;
+    var offX = -40;
     var mousePos;
 
     const onMouseMove = (e) => {
@@ -81,30 +81,60 @@ function init(){
         });
     }
 
+    var iframe = document.querySelector('iframe')
+    var player = new Vimeo.Player(iframe);
+
+    function stopVideo() {
+        player.pause();
+        document.querySelector("meta[name='theme-color']").setAttribute("content", "#000000");
+    };
+
+    function playVideo() {
+        player.play();
+        document.querySelector("meta[name='theme-color']").setAttribute("content", "#0000fa");
+    };
+    var playVideoClick = document.querySelectorAll(".play-video");
+    var stopVideoClick = document.querySelectorAll(".stop-video");
+
+    for (i = 0; i < playVideoClick.length; ++i) {
+        playVideoClick[i].onclick = function() {
+            playVideo();
+        };
+    };
+
+    for (i = 0; i < stopVideoClick.length; ++i) {
+        stopVideoClick[i].onclick = function() {
+            stopVideo();
+        };
+    };
+
+
     // do something before the transition starts
     barba.hooks.before(() => {
-
-        //document.querySelector('html').classList.add('is-transitioning');
-        //barba.wrapper.classList.add('is-animating');
 
     });
 
     // do something after the transition finishes
     barba.hooks.after(() => {
 
-        //document.querySelector('html').classList.remove('is-transitioning');
-        //barba.wrapper.classList.remove('is-animating');
-        ga('set', 'page', window.location.pathname);
-        ga('send', 'pageview');
+        var playVideoClick = document.querySelectorAll(".play-video");
+        var stopVideoClick = document.querySelectorAll(".stop-video");
+
+        for (i = 0; i < playVideoClick.length; ++i) {
+            playVideoClick[i].onclick = function() {
+                playVideo();
+            };
+        };
+
+        for (i = 0; i < stopVideoClick.length; ++i) {
+            stopVideoClick[i].onclick = function() {
+                stopVideo();
+            };
+        };
 
         /*
-        let bottomDOM = document.getElementsByTagName("body")[0]
-        let newScript = document.createElement("script")
-        //const oldScript = document.querySelector(".post-scripts")
-        newScript.src = "/assets/js/post-scripts.js"
-        newScript.className = "post-scripts"
-        //oldScript.remove()
-        bottomDOM.appendChild(newScript)
+        ga('set', 'page', window.location.pathname);
+        ga('send', 'pageview');
         */
     });
 
@@ -133,23 +163,6 @@ function init(){
         views: [{
             namespace: 'home',
             beforeEnter(data) {
-
-                const iframe = document.querySelector('iframe');
-                const player = new Vimeo.Player(iframe);
-
-                document.getElementById("play-video").onclick = function() {
-                    player.play();
-                    document.querySelector("meta[name='theme-color']").setAttribute("content", "#0000fa");
-                };
-
-                function pauseVideo() {
-                    player.pause();
-                    document.querySelector("meta[name='theme-color']").setAttribute("content", "#000000");
-                };
-
-                document.getElementById("stop-video").onclick = function() {
-                    pauseVideo();
-                };
 
                 //Gallery
                 let gallery = document.getElementsByClassName('slider');
