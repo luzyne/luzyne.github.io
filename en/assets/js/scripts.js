@@ -34,7 +34,7 @@ function init(){
 
     var all = document.getElementsByClassName('hover_thumbnail');
     var postsPos = document.getElementById('posts');
-    var offX = -40;
+    var offX = -60;
     var mousePos;
 
     const onMouseMove = (e) => {
