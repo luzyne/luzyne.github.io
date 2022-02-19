@@ -285,7 +285,7 @@ function init(){
                     document.querySelector("meta[name='theme-color']").setAttribute("content", "#0000fa");
                 }
 
-                const cards = data.next.container.getElementsByClassName('card');
+                const cards = data.next.container.getElementsByClassName('open-modal');
                 for (var i = 0; i < cards.length; i++) {
                     const slide = parseInt(String(i));
                     cards[i].onclick = function() {
