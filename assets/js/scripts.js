@@ -3,7 +3,7 @@ function init(){
     var parallaxSlow = document.querySelector('.parallax-slow');
     var parallaxFast = document.querySelector('.parallax-fast');
     
-    window.scrollTo(0, 0);
+    //window.scrollTo(0, 0);
 
     var slow = new Rellax(parallaxSlow, {
         speed: 1,
@@ -141,7 +141,14 @@ function init(){
     // scroll to the top of the page
     barba.hooks.enter(() => {
 
-        window.scrollTo(0, 0);
+        if(window.location.hash) {
+            var hash = window.location.hash.substring(1); //Puts hash in variable, and removes the # character
+            //alert (hash);
+            var node = document.getElementById(hash);    
+            node.scrollIntoView();
+        } else {
+            window.scrollTo(0, 0);
+        }
         ScrollReveal().reveal('.reveal', slideUp);
         
         for (var i = 0; i < all.length; i++) {
