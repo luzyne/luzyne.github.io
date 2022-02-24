@@ -142,8 +142,7 @@ function init(){
     barba.hooks.enter(() => {
 
         if(window.location.hash) {
-            var hash = window.location.hash.substring(1); //Puts hash in variable, and removes the # character
-            //alert (hash);
+            var hash = window.location.hash.substring(1);
             var node = document.getElementById(hash);    
             node.scrollIntoView();
         } else {
