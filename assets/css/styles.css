@@ -462,9 +462,13 @@ a#open-modal { display: inline-block; }
 
 @media screen and (max-width: 600px) { #gallery-container { margin-left: 0; } }
 
-#gallery-container:before { content: "DRAG"; pointer-events: none; position: absolute; width: 600px; height: 43vh; top: 0; right: 0; font-size: 12.35px; letter-spacing: 1px; text-align: right; line-height: 0; padding-top: 20vh; padding-right: 202.5px; background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, black 100%); z-index: 10; -webkit-transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1); -moz-transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1); -ms-transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1); -o-transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1); transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1); }
+#gallery-container:before { content: "DRAG"; pointer-events: none; position: absolute; width: 50%; max-width: 600px; height: 43vh; top: 0; right: 0; font-size: 12.35px; letter-spacing: 1px; text-align: right; line-height: 0; padding-top: 20vh; padding-right: 202.5px; background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, black 100%); z-index: 10; -webkit-transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1); -moz-transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1); -ms-transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1); -o-transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1); transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1); }
+
+@media screen and (max-width: 600px) { #gallery-container:before { padding-right: 142.5px; } }
 
 #gallery-container:after { content: ""; pointer-events: none; position: absolute; top: calc(20vh - 45px); right: 90px; width: 90px; height: 90px; border-radius: 45px; background-color: #0000fa; background-image: url("/assets/images/drag.svg"); background-repeat: no-repeat; background-position: center center; background-size: 45px; box-shadow: 0 7.5px 15px rgba(0, 0, 0, 0.5), 0 7.5px 22.5px rgba(0, 0, 250, 0.5); z-index: 11; -webkit-transition: all 0.8s cubic-bezier(0.25, 1, 0.5, 1); -moz-transition: all 0.8s cubic-bezier(0.25, 1, 0.5, 1); -ms-transition: all 0.8s cubic-bezier(0.25, 1, 0.5, 1); -o-transition: all 0.8s cubic-bezier(0.25, 1, 0.5, 1); transition: all 0.8s cubic-bezier(0.25, 1, 0.5, 1); }
+
+@media screen and (max-width: 600px) { #gallery-container:after { right: 30px; } }
 
 #gallery-container.scrolled:before { content: ""; opacity: 0.5; -webkit-transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1); -moz-transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1); -ms-transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1); -o-transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1); transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1); }
 
