@@ -174,9 +174,11 @@ function init(){
                 let gallery = document.getElementsByClassName('slider');
                 gallery = gallery[gallery.length-1];
                 var flktyHome = new Flickity( gallery, {
-                  wrapAround: true,
-                  imagesLoaded: true,
-                  arrowShape: 'M19.6915 51.9335L47.8165 80.0585L51.6835 76.1915L28.2264 52.7344H79V47.2656H28.2264L51.6835 23.8085L47.8165 19.9415L19.6915 48.0665L17.758 50L19.6915 51.9335Z'
+                    //draggable: false,
+                    dragThreshold: 20,
+                    wrapAround: true,
+                    imagesLoaded: true,
+                    arrowShape: 'M19.6915 51.9335L47.8165 80.0585L51.6835 76.1915L28.2264 52.7344H79V47.2656H28.2264L51.6835 23.8085L47.8165 19.9415L19.6915 48.0665L17.758 50L19.6915 51.9335Z'
                 });
 
                 document.getElementById('about-btn').onclick = function() {
@@ -281,9 +283,10 @@ function init(){
                 let gallery = document.getElementsByClassName('slider');
                 gallery = gallery[gallery.length-1];
                 var flkty = new Flickity( gallery, {
-                  wrapAround: true,
-                  imagesLoaded: true,
-                  arrowShape: 'M19.6915 51.9335L47.8165 80.0585L51.6835 76.1915L28.2264 52.7344H79V47.2656H28.2264L51.6835 23.8085L47.8165 19.9415L19.6915 48.0665L17.758 50L19.6915 51.9335Z'
+                    contain: true,
+                    wrapAround: true,
+                    imagesLoaded: true,
+                    arrowShape: 'M19.6915 51.9335L47.8165 80.0585L51.6835 76.1915L28.2264 52.7344H79V47.2656H28.2264L51.6835 23.8085L47.8165 19.9415L19.6915 48.0665L17.758 50L19.6915 51.9335Z'
                 });
 
                 document.getElementById('open-modal').onclick = function() {
@@ -295,6 +298,9 @@ function init(){
                 for (var i = 0; i < cards.length; i++) {
                     const slide = parseInt(String(i));
                     cards[i].onclick = function() {
+                        //if (cards[i].hasAttribute("data-vimeo")) {
+                        //    alert(cards[i].getAttribute('data-vimeo'))
+                        //}
                         flkty.selectCell( slide, true, true );
                         document.querySelector("meta[name='theme-color']").setAttribute("content", "#0000fa");
                     }
@@ -322,6 +328,12 @@ window.addEventListener('load', function(){
 function menuCheck() {
     if (document.getElementById("nav-trigger").checked == true) {
         document.getElementById("dark-trigger").checked = false;
+    }
+}
+
+function closeMenu() {
+    if (document.getElementById("nav-trigger").checked == true) {
+        document.getElementById("nav-trigger").checked = false;
     }
 }
 
