@@ -524,9 +524,9 @@ a#open-modal { display: inline-block; }
 
 @media screen and (max-width: 600px) { .slider .slide { width: 100vw; } }
 
-.slider .slide img { height: 70vh; width: auto; }
+.slider .slide figure img { height: 70vh; width: auto; }
 
-@media screen and (max-width: 600px) { .slider .slide img { position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); height: auto; width: 100vw; } }
+@media screen and (max-width: 600px) { .slider .slide figure img { position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); height: auto; width: 100vw; } }
 
 .slider .slide.is-selected { opacity: 1; -webkit-transition: opacity 0.4s cubic-bezier(0.25, 1, 0.5, 1), margin 0s cubic-bezier(0.25, 1, 0.5, 1) 0.4s; -moz-transition: opacity 0.4s cubic-bezier(0.25, 1, 0.5, 1), margin 0s cubic-bezier(0.25, 1, 0.5, 1) 0.4s; -ms-transition: opacity 0.4s cubic-bezier(0.25, 1, 0.5, 1), margin 0s cubic-bezier(0.25, 1, 0.5, 1) 0.4s; -o-transition: opacity 0.4s cubic-bezier(0.25, 1, 0.5, 1), margin 0s cubic-bezier(0.25, 1, 0.5, 1) 0.4s; transition: opacity 0.4s cubic-bezier(0.25, 1, 0.5, 1), margin 0s cubic-bezier(0.25, 1, 0.5, 1) 0.4s; }
 
@@ -566,7 +566,7 @@ a#open-modal { display: inline-block; }
 
 #about-modal .slide .about-logo { display: inline-block; height: 120px !important; margin-bottom: 120px; -webkit-transition: all 4s cubic-bezier(0.25, 1, 0.5, 1); -moz-transition: all 4s cubic-bezier(0.25, 1, 0.5, 1); -ms-transition: all 4s cubic-bezier(0.25, 1, 0.5, 1); -o-transition: all 4s cubic-bezier(0.25, 1, 0.5, 1); transition: all 4s cubic-bezier(0.25, 1, 0.5, 1); }
 
-#about-modal .slide .slide__container .text-container { display: grid; justify-content: space-between; align-items: start; justify-items: start; grid-template-columns: 3fr 2fr; column-gap: 60px; overflow: scroll; width: 80vw; height: 100vh; padding: 15vh 5vw 10vh; }
+#about-modal .slide .slide__container .text-container { display: grid; justify-content: space-between; align-items: start; justify-items: start; grid-template-columns: 3fr 2fr; column-gap: 60px; overflow: scroll; height: 100vh; padding: 15vh 15vw 10vh; }
 
 #about-modal .slide .slide__container .text-container p, #about-modal .slide .slide__container .text-container li { color: rgba(255, 255, 255, 0.8); }
 
