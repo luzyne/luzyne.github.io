@@ -175,7 +175,7 @@ function init(){
                 gallery = gallery[gallery.length-1];
                 var flktyHome = new Flickity( gallery, {
                     //draggable: false,
-                    dragThreshold: 20,
+                    dragThreshold: 50,
                     wrapAround: true,
                     imagesLoaded: true,
                     arrowShape: 'M19.6915 51.9335L47.8165 80.0585L51.6835 76.1915L28.2264 52.7344H79V47.2656H28.2264L51.6835 23.8085L47.8165 19.9415L19.6915 48.0665L17.758 50L19.6915 51.9335Z'
