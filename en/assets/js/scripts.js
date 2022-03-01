@@ -132,6 +132,11 @@ function init(){
             };
         };
 
+        if(window.location.hash) {
+            var hash = window.location.hash.substring(1);
+            var node = document.getElementById(hash);    
+            node.scrollIntoView();
+        }
         /*
         ga('set', 'page', window.location.pathname);
         ga('send', 'pageview');
@@ -141,13 +146,7 @@ function init(){
     // scroll to the top of the page
     barba.hooks.enter(() => {
 
-        if(window.location.hash) {
-            var hash = window.location.hash.substring(1);
-            var node = document.getElementById(hash);    
-            node.scrollIntoView();
-        } else {
-            window.scrollTo(0, 0);
-        }
+        window.scrollTo(0, 0);
         ScrollReveal().reveal('.reveal', slideUp);
         
         for (var i = 0; i < all.length; i++) {
