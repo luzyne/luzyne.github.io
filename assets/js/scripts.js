@@ -288,32 +288,58 @@ function init(){
                     arrowShape: 'M19.6915 51.9335L47.8165 80.0585L51.6835 76.1915L28.2264 52.7344H79V47.2656H28.2264L51.6835 23.8085L47.8165 19.9415L19.6915 48.0665L17.758 50L19.6915 51.9335Z'
                 });
 
+                //Videos
+                var videosList = [];
+                var videos = data.next.container.querySelectorAll(".vimeo");
+                var prevNextBtns = data.next.container.querySelectorAll(".flickity-prev-next-button");
+                var closeBtns = data.next.container.querySelectorAll(".close-modal");
+                for (var i = 0; i < videos.length; i++) {
+                    var video = new Vimeo.Player(videos[i]);
+                    videosList.push(video);
+                    for (var k = 0; k < closeBtns.length; k++) {
+                        closeBtns[k].onclick = function() {
+                            document.querySelector("meta[name='theme-color']").setAttribute("content", "#000000");
+                            for (var x = 0; x < videosList.length; x++) {
+                                videosList[x].pause();
+                            }
+                        }
+                    }
+                    for (var j = 0; j < prevNextBtns.length; j++) {
+                        prevNextBtns[j].onclick = function() {
+                            for (var x = 0; x < videosList.length; x++) {
+                                videosList[x].pause();
+                            }
+                        }
+                    }
+                }
+
                 document.getElementById('open-modal').onclick = function() {
                     flkty.selectCell( 0, true, true );
                     document.querySelector("meta[name='theme-color']").setAttribute("content", "#0000fa");
                 }
 
+                let cardsVideos = 0;
                 const cards = data.next.container.getElementsByClassName('open-modal');
                 for (var i = 0; i < cards.length; i++) {
                     const slide = parseInt(String(i));
-                    cards[i].onclick = function() {
-                        //if (cards[i].hasAttribute("data-vimeo")) {
-                        //    alert(cards[i].getAttribute('data-vimeo'))
-                        //}
-                        flkty.selectCell( slide, true, true );
-                        document.querySelector("meta[name='theme-color']").setAttribute("content", "#0000fa");
+                    if (cards[i].hasAttribute("data-vimeo")) {
+                        const id = parseInt(String(cardsVideos));
+                        cards[i].onclick = function() {
+                            flkty.selectCell( slide, true, true );
+                            videosList[id].play();
+                            document.querySelector("meta[name='theme-color']").setAttribute("content", "#0000fa");
+                        }
+                        cardsVideos += 1;
+                    } else {
+                        cards[i].onclick = function() {
+                            flkty.selectCell( slide, true, true );
+                            document.querySelector("meta[name='theme-color']").setAttribute("content", "#0000fa");
+                        }
                     }
-                }
-
-                let closeModal = document.getElementsByClassName('close-modal');
-                closeModal = closeModal[closeModal.length-1];
-                closeModal.onclick = function() {
-                    document.querySelector("meta[name='theme-color']").setAttribute("content", "#000000");
                 }
 
             },
             afterLeave(data) {
-
             }
         }]
     })
