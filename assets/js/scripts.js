@@ -318,6 +318,14 @@ function init(){
                     document.querySelector("meta[name='theme-color']").setAttribute("content", "#0000fa");
                 }
 
+                if (document.getElementById('oryx-video')) {
+                    document.getElementById('oryx-video').onclick = function() {
+                        flkty.selectCell( 2, true, true );
+                        videosList[1].play();
+                        document.querySelector("meta[name='theme-color']").setAttribute("content", "#0000fa");
+                    }
+                }
+
                 let cardsVideos = 0;
                 const cards = data.next.container.getElementsByClassName('open-modal');
                 for (var i = 0; i < cards.length; i++) {
