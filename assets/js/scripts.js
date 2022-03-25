@@ -293,22 +293,31 @@ function init(){
                 var videos = data.next.container.querySelectorAll(".vimeo");
                 var prevNextBtns = data.next.container.querySelectorAll(".flickity-prev-next-button");
                 var closeBtns = data.next.container.querySelectorAll(".close-modal");
-                for (var i = 0; i < videos.length; i++) {
-                    var video = new Vimeo.Player(videos[i]);
-                    videosList.push(video);
-                    for (var k = 0; k < closeBtns.length; k++) {
-                        closeBtns[k].onclick = function() {
-                            document.querySelector("meta[name='theme-color']").setAttribute("content", "#000000");
-                            for (var x = 0; x < videosList.length; x++) {
-                                videosList[x].pause();
+
+                if (videos.length > 0) {
+                    for (var i = 0; i < videos.length; i++) {
+                        var video = new Vimeo.Player(videos[i]);
+                        videosList.push(video);
+                        for (var k = 0; k < closeBtns.length; k++) {
+                            closeBtns[k].onclick = function() {
+                                document.querySelector("meta[name='theme-color']").setAttribute("content", "#000000");
+                                for (var x = 0; x < videosList.length; x++) {
+                                    videosList[x].pause();
+                                }
+                            }
+                        }
+                        for (var j = 0; j < prevNextBtns.length; j++) {
+                            prevNextBtns[j].onclick = function() {
+                                for (var x = 0; x < videosList.length; x++) {
+                                    videosList[x].pause();
+                                }
                             }
                         }
                     }
-                    for (var j = 0; j < prevNextBtns.length; j++) {
-                        prevNextBtns[j].onclick = function() {
-                            for (var x = 0; x < videosList.length; x++) {
-                                videosList[x].pause();
-                            }
+                } else {
+                    for (var k = 0; k < closeBtns.length; k++) {
+                        closeBtns[k].onclick = function() {
+                            document.querySelector("meta[name='theme-color']").setAttribute("content", "#000000");
                         }
                     }
                 }
