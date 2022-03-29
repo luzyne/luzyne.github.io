@@ -305,37 +305,37 @@ table td { border: 1px solid #999999; }
 
 #cookie-box.hidden { bottom: -76px; opacity: 0; pointer-events: none; -webkit-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); -moz-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); -ms-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); -o-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); }
 
-#cookie-modal, #thanks-page { position: fixed; pointer-events: none; opacity: 0; width: 100%; height: 100%; top: 0; left: 0; background-color: #0000fa; z-index: 1001; -webkit-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); -moz-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); -ms-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); -o-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); }
+#cookie-modal, #brand-color-page { position: fixed; pointer-events: none; opacity: 0; width: 100%; height: 100%; top: 0; left: 0; background-color: #0000fa; z-index: 1001; -webkit-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); -moz-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); -ms-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); -o-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); }
 
-#cookie-modal:target, #thanks-page:target { opacity: 1; pointer-events: auto; -webkit-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); -moz-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); -ms-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); -o-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); }
+#cookie-modal:target, #brand-color-page:target { opacity: 1; pointer-events: auto; -webkit-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); -moz-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); -ms-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); -o-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); }
 
-#cookie-modal p, #thanks-page p { font-size: 17.1px; color: rgba(255, 255, 255, 0.8); }
+#cookie-modal p, #brand-color-page p { font-size: 17.1px; color: rgba(255, 255, 255, 0.8); }
 
-#cookie-modal .button, #thanks-page .button { font-size: 17.1px; text-decoration: none; display: inline-block; border: none; margin-right: 14.25px; margin-top: 19px; font-weight: 500; cursor: pointer; background-color: rgba(255, 255, 255, 0.9); color: #0000fa; border-radius: 8.075px; padding: 9.5px 19px; -webkit-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); -moz-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); -ms-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); -o-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); }
+#cookie-modal .button, #brand-color-page .button { font-size: 17.1px; text-decoration: none; display: inline-block; border: none; margin-right: 14.25px; margin-top: 19px; font-weight: 500; cursor: pointer; background-color: rgba(255, 255, 255, 0.9); color: #0000fa; border-radius: 8.075px; padding: 9.5px 19px; -webkit-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); -moz-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); -ms-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); -o-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); }
 
-#cookie-modal .button.cookie-box-close, #thanks-page .button.cookie-box-close { font-weight: normal; color: rgba(255, 255, 255, 0.8); background-color: transparent; border: 1px solid rgba(255, 255, 255, 0.5); }
+#cookie-modal .button.cookie-box-close, #brand-color-page .button.cookie-box-close { font-weight: normal; color: rgba(255, 255, 255, 0.8); background-color: transparent; border: 1px solid rgba(255, 255, 255, 0.5); }
 
-#cookie-modal .button:hover, #thanks-page .button:hover { background-color: white; -webkit-transition: all 0.2s cubic-bezier(0.25, 1, 0.5, 1); -moz-transition: all 0.2s cubic-bezier(0.25, 1, 0.5, 1); -ms-transition: all 0.2s cubic-bezier(0.25, 1, 0.5, 1); -o-transition: all 0.2s cubic-bezier(0.25, 1, 0.5, 1); transition: all 0.2s cubic-bezier(0.25, 1, 0.5, 1); }
+#cookie-modal .button:hover, #brand-color-page .button:hover { background-color: white; -webkit-transition: all 0.2s cubic-bezier(0.25, 1, 0.5, 1); -moz-transition: all 0.2s cubic-bezier(0.25, 1, 0.5, 1); -ms-transition: all 0.2s cubic-bezier(0.25, 1, 0.5, 1); -o-transition: all 0.2s cubic-bezier(0.25, 1, 0.5, 1); transition: all 0.2s cubic-bezier(0.25, 1, 0.5, 1); }
 
-#cookie-modal .button.cookie-box-close:hover, #thanks-page .button.cookie-box-close:hover { color: white; background-color: transparent; border: 1px solid rgba(255, 255, 255, 0.75); }
+#cookie-modal .button.cookie-box-close:hover, #brand-color-page .button.cookie-box-close:hover { color: white; background-color: transparent; border: 1px solid rgba(255, 255, 255, 0.75); }
 
-#cookie-modal .content, #thanks-page .content { position: relative; padding: 30px; max-width: 1075px; overflow: hidden; max-height: 100vh; margin: 0 auto; top: 45%; -ms-transform: translate(0, -50%); transform: translate(0, -50%); }
+#cookie-modal .content, #brand-color-page .content { position: relative; padding: 30px; max-width: 1075px; overflow: hidden; max-height: 100vh; margin: 0 auto; top: 45%; -ms-transform: translate(0, -50%); transform: translate(0, -50%); }
 
-#cookie-modal.hidden, #thanks-page.hidden { display: none; }
+#cookie-modal.hidden, #brand-color-page.hidden { display: none; }
 
-#thanks-page { opacity: 1; pointer-events: auto; }
+#brand-color-page { opacity: 1; pointer-events: auto; }
 
-#thanks-page .alt-color { color: #fff; }
+#brand-color-page .alt-color { color: #fff; }
 
-#thanks-page h1 { font-size: 57px; margin-bottom: 0; }
+#brand-color-page h1 { font-size: 57px; margin-bottom: 0; }
 
-#thanks-page p { line-height: 1.2; margin-bottom: 30px; font-size: 22.8px; color: white; }
+#brand-color-page p { line-height: 1.2; margin-bottom: 30px; font-size: 22.8px; color: white; }
 
-#thanks-page .btn { font-family: "DM Serif Display", serif; background-color: transparent; border: none; font-size: 28.5px; color: #fff; margin-top: 30px; text-decoration: none; text-decoration-thickness: 1px; text-underline-offset: 6px; cursor: pointer; }
+#brand-color-page .btn { font-family: "DM Serif Display", serif; background-color: transparent; border: none; font-size: 28.5px; color: #fff; margin-top: 30px; text-decoration: none; text-decoration-thickness: 1px; text-underline-offset: 6px; cursor: pointer; }
 
-#thanks-page .btn:after { content: ""; display: inline-block; position: relative; vertical-align: middle; margin-left: 33.25px; width: 75px; height: 75px; border-radius: 37.5px; background-color: #fff; background-image: url("/assets/images/arrow-right-blue.svg"); transform: rotate(180deg); background-repeat: no-repeat; background-position: center center; background-size: 37.5px; box-shadow: 4.5px -10.5px 22.5px rgba(255, 255, 255, 0.35); z-index: 11; -webkit-transition: all 0.8s cubic-bezier(0.25, 1, 0.5, 1); -moz-transition: all 0.8s cubic-bezier(0.25, 1, 0.5, 1); -ms-transition: all 0.8s cubic-bezier(0.25, 1, 0.5, 1); -o-transition: all 0.8s cubic-bezier(0.25, 1, 0.5, 1); transition: all 0.8s cubic-bezier(0.25, 1, 0.5, 1); }
+#brand-color-page .btn:after { content: ""; display: inline-block; position: relative; vertical-align: middle; margin-left: 33.25px; width: 75px; height: 75px; border-radius: 37.5px; background-color: #fff; background-image: url("/assets/images/arrow-right-blue.svg"); transform: rotate(180deg); background-repeat: no-repeat; background-position: center center; background-size: 37.5px; box-shadow: 4.5px -10.5px 22.5px rgba(255, 255, 255, 0.35); z-index: 11; -webkit-transition: all 0.8s cubic-bezier(0.25, 1, 0.5, 1); -moz-transition: all 0.8s cubic-bezier(0.25, 1, 0.5, 1); -ms-transition: all 0.8s cubic-bezier(0.25, 1, 0.5, 1); -o-transition: all 0.8s cubic-bezier(0.25, 1, 0.5, 1); transition: all 0.8s cubic-bezier(0.25, 1, 0.5, 1); }
 
-#thanks-page .btn:hover:after { margin-left: 23.75px; -webkit-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); -moz-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); -ms-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); -o-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); }
+#brand-color-page .btn:hover:after { margin-left: 23.75px; -webkit-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); -moz-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); -ms-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); -o-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); }
 
 /** Site footer */
 .site-footer { position: relative; z-index: 14; padding: 30px 0; }
