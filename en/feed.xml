@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://www.luzyne.fr/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.luzyne.fr/" rel="alternate" type="text/html" /><updated>2022-07-20T23:43:51-04:00</updated><id>https://www.luzyne.fr/feed.xml</id><title type="html">L’Uzyne - Brand Activation Agency</title><entry xml:lang="en"><title type="html">Oryx</title><link href="https://www.luzyne.fr/work/oryx.html" rel="alternate" type="text/html" title="Oryx" /><published>2021-11-29T17:25:13-05:00</published><updated>2021-11-29T17:25:13-05:00</updated><id>https://www.luzyne.fr/work/oryx</id><content type="html" xml:base="https://www.luzyne.fr/work/oryx.html">&lt;div id=&quot;gallery-modal&quot;&gt;g
+  &lt;a href=&quot;#gallery&quot; class=&quot;close close-modal&quot;&gt;&lt;span class=&quot;close-btn&quot;&gt;&lt;svg viewBox=&quot;0 0 32 32&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; clip-rule=&quot;evenodd&quot; d=&quot;M16.1924 14.7782L8.41421 7L7 8.41421L14.7782 16.1924L7 23.9706L8.41421 25.3848L16.1924 17.6066L23.9706 25.3848L25.3848 23.9706L17.6066 16.1924L25.3848 8.41422L23.9706 7L16.1924 14.7782Z&quot; fill=&quot;white&quot; /&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/a&gt;
+  &lt;div class=&quot;modal-content&quot;&gt;
+    &lt;ul class=&quot;slider&quot;&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+        &lt;div class=&quot;slide__container landscape&quot; style=&quot;width: 70vh; height: 70vh;&quot;&gt;&lt;iframe class=&quot;vimeo&quot; data-vimeo=&quot;&quot; src=&quot;https://player.vimeo.com/video/682705482?h=b3b6131635&amp;amp;badge=0&amp;amp;autopause=0&amp;amp;player_id=0&amp;amp;app_id=58479&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen; picture-in-picture&quot; allowfullscreen=&quot;&quot; title=&quot;Oryx_teaser_VF_formatcarr&amp;amp;eacute;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+        &lt;figure class=&quot;slide__container&quot;&gt;&lt;img src=&quot;/assets/images/oryx/Oryx_002.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/figure&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+        &lt;div class=&quot;slide__container landscape&quot; style=&quot;width: 124vh; height: 70vh;&quot;&gt;&lt;iframe class=&quot;vimeo&quot; src=&quot;https://player.vimeo.com/video/684787141?h=afedcbceea&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+        &lt;figure class=&quot;slide__container&quot;&gt;&lt;img src=&quot;/assets/images/oryx/Oryx_005.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/figure&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+        &lt;figure class=&quot;slide__container&quot;&gt;&lt;img src=&quot;/assets/images/oryx/Oryx_004.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/figure&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+        &lt;figure class=&quot;slide__container&quot;&gt;&lt;img src=&quot;/assets/images/oryx/Oryx_007.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/figure&gt;
+      &lt;/li&gt;
+      &lt;!--&lt;li class=&quot;slide&quot;&gt;
+        &lt;figure class=&quot;slide__container&quot;&gt;&lt;img src=&quot;/assets/images/oryx/Oryx_006.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/figure&gt;
+      &lt;/li&gt;--&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+        &lt;figure class=&quot;slide__container&quot;&gt;&lt;img src=&quot;/assets/images/oryx/Oryx_009.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/figure&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+        &lt;figure class=&quot;slide__container&quot;&gt;&lt;img src=&quot;/assets/images/oryx/Oryx_008.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/figure&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;pre-gallery&quot; class=&quot;col-left&quot;&gt;
+&lt;a id=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;img src=&quot;/assets/images/oryx/a_oryx.jpg&quot; class=&quot;parallax-slow&quot; alt=&quot;image One&quot; /&gt;
+&lt;img src=&quot;/assets/images/oryx/b_oryx.jpg&quot; class=&quot;parallax-fast&quot; alt=&quot;image Two&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;col-right padding-top reveal&quot;&gt;
+  &lt;p&gt;Present for over 30 years in Sub-Saharan Africa, the oil group and the football player share a history and common values: to champion this expanding continent, where many talents are just waiting for their full potential to be revealed.&lt;/p&gt;
+
+  &lt;p&gt;In its latest &lt;a href=&quot;#gallery-modal&quot; id=&quot;oryx-video&quot;&gt;advert&lt;/a&gt;, the group wanted to highlight its activities as an energy provider (gas, petrol but also lubricants) and more importantly its impact: in the heart of the cities, close to the population, even in the most isolated places.&lt;/p&gt;
+
+  &lt;p&gt;Because you may not know this, but Oryx isn’t just an energy provider: everywhere the group rolls out infrastructures, opportunities are born, offering local populations the ability to spread their potential and reach their ambitions.&lt;/p&gt;
+
+  &lt;p&gt;And to embody the power of this continent, Oryx called on international football player Sadio Mané (what better wingman than a winger!) for an exclusive and innovative partnership. A chance for the sportsman, very popular in Africa, to reinforce his commitment to a whole generation of fans!&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;gallery&quot; class=&quot;col-whole padding-top margin-bottom reveal&quot;&gt;
+&lt;div id=&quot;gallery-container&quot;&gt;&lt;div class=&quot;post-gallery&quot;&gt;
+  &lt;figure class=&quot;card video&quot;&gt;&lt;img src=&quot;/assets/images/oryx/Oryx_001.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot; data-vimeo=&quot;&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/oryx/Oryx_002.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card video&quot;&gt;&lt;img src=&quot;/assets/images/oryx/Oryx_010.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot; data-vimeo=&quot;&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/oryx/Oryx_005.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/oryx/Oryx_004.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;!--&lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/oryx/Oryx_006.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;--&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/oryx/Oryx_007.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;!--&lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/oryx/Oryx_003.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;--&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/oryx/Oryx_009.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/oryx/Oryx_008.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;col-left&quot;&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;From an ad … to a fully grown brand platform.&lt;/p&gt;
+  &lt;/blockquote&gt;
+  &lt;ul class=&quot;tags&quot;&gt;
+  &lt;li&gt;Global Campaign&lt;/li&gt;
+  &lt;li&gt;Brand Ambassador&lt;/li&gt;
+  &lt;li&gt;Network Activation&lt;/li&gt;
+  &lt;li&gt;Digital&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;col-right padding-top margin-bottom reveal&quot;&gt;
+  &lt;p&gt;Beyond a TV advert across 17 countries, the whole brand platform was imagined to highlight the impact of each of Oryx’s solutions on the ground.&lt;/p&gt;
+
+  &lt;p&gt;Petrol, gas, or lubricant, every product advert and every visual plays with Sadio Mané to showcase the performance of Oryx’s products in everyday action!&lt;/p&gt;
+
+  &lt;p&gt;The campaign comes with an operational and local tactical roll-out to promote through retailers (shops, gas stations …) closer to the consumer than ever!&lt;/p&gt;
+
+  &lt;p&gt;A co-production made possible thanks to local teams in each country, from shooting in Liverpool to 18 days filming on Oryx’ grounds, meaning over 40 contributors!&lt;/p&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="work" /><summary type="html">g Present for over 30 years in Sub-Saharan Africa, the oil group and the football player share a history and common values: to champion this expanding continent, where many talents are just waiting for their full potential to be revealed. In its latest advert, the group wanted to highlight its activities as an energy provider (gas, petrol but also lubricants) and more importantly its impact: in the heart of the cities, close to the population, even in the most isolated places. Because you may not know this, but Oryx isn’t just an energy provider: everywhere the group rolls out infrastructures, opportunities are born, offering local populations the ability to spread their potential and reach their ambitions. And to embody the power of this continent, Oryx called on international football player Sadio Mané (what better wingman than a winger!) for an exclusive and innovative partnership. A chance for the sportsman, very popular in Africa, to reinforce his commitment to a whole generation of fans! From an ad … to a fully grown brand platform. Global Campaign Brand Ambassador Network Activation Digital Beyond a TV advert across 17 countries, the whole brand platform was imagined to highlight the impact of each of Oryx’s solutions on the ground. Petrol, gas, or lubricant, every product advert and every visual plays with Sadio Mané to showcase the performance of Oryx’s products in everyday action! The campaign comes with an operational and local tactical roll-out to promote through retailers (shops, gas stations …) closer to the consumer than ever! A co-production made possible thanks to local teams in each country, from shooting in Liverpool to 18 days filming on Oryx’ grounds, meaning over 40 contributors!</summary></entry><entry xml:lang="en"><title type="html">Kronenbourg</title><link href="https://www.luzyne.fr/work/kronenbourg.html" rel="alternate" type="text/html" title="Kronenbourg" /><published>2021-11-29T17:25:13-05:00</published><updated>2021-11-29T17:25:13-05:00</updated><id>https://www.luzyne.fr/work/kronenbourg</id><content type="html" xml:base="https://www.luzyne.fr/work/kronenbourg.html">&lt;div id=&quot;gallery-modal&quot;&gt;
+  &lt;a href=&quot;#gallery&quot; class=&quot;close close-modal&quot;&gt;&lt;span class=&quot;close-btn&quot;&gt;&lt;svg viewBox=&quot;0 0 32 32&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; clip-rule=&quot;evenodd&quot; d=&quot;M16.1924 14.7782L8.41421 7L7 8.41421L14.7782 16.1924L7 23.9706L8.41421 25.3848L16.1924 17.6066L23.9706 25.3848L25.3848 23.9706L17.6066 16.1924L25.3848 8.41422L23.9706 7L16.1924 14.7782Z&quot; fill=&quot;white&quot; /&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/a&gt;
+  &lt;div class=&quot;modal-content&quot;&gt;
+    &lt;ul class=&quot;slider&quot;&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+          &lt;div class=&quot;slide__container landscape&quot; style=&quot;width: 124vh; height: 70vh;&quot;&gt;&lt;iframe class=&quot;vimeo&quot; src=&quot;https://player.vimeo.com/video/728851167?h=5ff04b4ccb&amp;amp;badge=0&amp;amp;autopause=0&amp;amp;player_id=0&amp;amp;app_id=58479&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen; picture-in-picture&quot; allowfullscreen=&quot;&quot; style=&quot;position:absolute;top:0;left:0;width:100%;height:100%;&quot; title=&quot;Kronenbourg_ luzynefr&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+        &lt;figure class=&quot;slide__container&quot;&gt;
+          &lt;img src=&quot;/assets/images/kronenbourg/kro_001.jpg&quot; alt=&quot;one&quot; /&gt;
+        &lt;/figure&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+        &lt;figure class=&quot;slide__container&quot;&gt;&lt;img src=&quot;/assets/images/kronenbourg/kro_002.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/figure&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+        &lt;figure class=&quot;slide__container&quot;&gt;&lt;img src=&quot;/assets/images/kronenbourg/kro_003.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/figure&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+        &lt;figure class=&quot;slide__container&quot;&gt;&lt;img src=&quot;/assets/images/kronenbourg/kro_004.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/figure&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+        &lt;figure class=&quot;slide__container&quot;&gt;&lt;img src=&quot;/assets/images/kronenbourg/kro_005.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/figure&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+        &lt;figure class=&quot;slide__container&quot;&gt;&lt;img src=&quot;/assets/images/kronenbourg/kro_006.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/figure&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+        &lt;figure class=&quot;slide__container&quot;&gt;&lt;img src=&quot;/assets/images/kronenbourg/kro_007.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/figure&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+        &lt;figure class=&quot;slide__container&quot;&gt;&lt;img src=&quot;/assets/images/kronenbourg/kro_008.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/figure&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+        &lt;figure class=&quot;slide__container&quot;&gt;&lt;img src=&quot;/assets/images/kronenbourg/kro_009.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/figure&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+        &lt;figure class=&quot;slide__container&quot;&gt;&lt;img src=&quot;/assets/images/kronenbourg/kro_010.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/figure&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;pre-gallery&quot; class=&quot;col-left&quot;&gt;
+&lt;a id=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;img src=&quot;/assets/images/kronenbourg/kro_a.jpg&quot; class=&quot;parallax-slow&quot; alt=&quot;image One&quot; /&gt;&lt;/a&gt;
+&lt;img src=&quot;/assets/images/kronenbourg/kro_b.jpg&quot; class=&quot;parallax-fast&quot; alt=&quot;image Two&quot; /&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;col-right padding-top reveal&quot;&gt;
+  &lt;p&gt;You’ve heard of jomo, fomo and slowmo (bit of a stretch here?) Here comes &lt;strong&gt;NOLOW&lt;/strong&gt;, the contraction between “No alcohol” and “Low consumption”. A cool new term to proudly limit your alcohol consumption!&lt;/p&gt;
+
+  &lt;p&gt;&lt;strong&gt;A blessing for booze makers who, until now, saved their light drinks for women and struggled to stray from clichés about 0% branded consumption!&lt;/strong&gt;&lt;/p&gt;
+
+  &lt;p&gt;That’s the impulse from which L’Uzyne imagined a new tactical sampling action plan for Kronenbourg and its brands Tourtel Twist, 1664 and Grimbergen.&lt;/p&gt;
+
+  &lt;p&gt;To get cold-beer lovers and 0% enthusiasts to meet, and to finally celebrate the taste and conviviality of those drinks that men long stayed away from.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;gallery&quot; class=&quot;col-whole padding-top margin-bottom reveal&quot;&gt;
+&lt;div id=&quot;gallery-container&quot;&gt;&lt;div class=&quot;post-gallery&quot;&gt;
+  &lt;figure class=&quot;card video&quot;&gt;&lt;img src=&quot;/assets/images/kronenbourg/kro_000.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot; data-vimeo=&quot;&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/kronenbourg/kro_001.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/kronenbourg/kro_002.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/kronenbourg/kro_003.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/kronenbourg/kro_004.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/kronenbourg/kro_005.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/kronenbourg/kro_006.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/kronenbourg/kro_007.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/kronenbourg/kro_008.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/kronenbourg/kro_009.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/kronenbourg/kro_010.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;col-left&quot;&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;L’Uzyne gives you 3 good reasons to cheer differently with brands from the Kronenbourg group!&lt;/p&gt;
+  &lt;/blockquote&gt;
+  &lt;ul class=&quot;tags&quot;&gt;
+  &lt;li&gt;360 Activation&lt;/li&gt;
+  &lt;li&gt;Sampling&lt;/li&gt;
+  &lt;li&gt;Street Marketing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;col-right padding-top margin-bottom reveal&quot;&gt;
+  &lt;p&gt;&lt;strong&gt;With a massive sampling campaign, L’Uzyne has enabled brands to meet customers and create differentiating and impactful consumer experiences!&lt;/strong&gt;&lt;/p&gt;
+
+  &lt;p&gt;Tourtel Twist is the good-times beer, for moments shared with friends and family at any time of the day! From gas stations turned into leisure centers to Neighbors day, L’Uzyne has gathered consumers around true moments of conviviality.&lt;/p&gt;
+
+  &lt;p&gt;For 1664, it’s all about being French and proud of it (oui monsieur!). So, for all beer lovers who enjoy sharing a pint amongst friends without having to sacrifice their 6 packs (see what we did there!), L’Uzyne offered a 1664 0.0° paired with “healthy” meals provided by selected food partners.&lt;/p&gt;
+
+  &lt;p&gt;Finally, for Grimbergen, the most contemporary abbey beer in France, a real foodie activation around “food pairing” allowed the consumer to associate the product with a real gourmet moment.&lt;/p&gt;
+
+  &lt;p&gt;Convinced? The next round is on us!&lt;/p&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="work" /><summary type="html">You’ve heard of jomo, fomo and slowmo (bit of a stretch here?) Here comes NOLOW, the contraction between “No alcohol” and “Low consumption”. A cool new term to proudly limit your alcohol consumption! A blessing for booze makers who, until now, saved their light drinks for women and struggled to stray from clichés about 0% branded consumption! That’s the impulse from which L’Uzyne imagined a new tactical sampling action plan for Kronenbourg and its brands Tourtel Twist, 1664 and Grimbergen. To get cold-beer lovers and 0% enthusiasts to meet, and to finally celebrate the taste and conviviality of those drinks that men long stayed away from. L’Uzyne gives you 3 good reasons to cheer differently with brands from the Kronenbourg group! 360 Activation Sampling Street Marketing With a massive sampling campaign, L’Uzyne has enabled brands to meet customers and create differentiating and impactful consumer experiences! Tourtel Twist is the good-times beer, for moments shared with friends and family at any time of the day! From gas stations turned into leisure centers to Neighbors day, L’Uzyne has gathered consumers around true moments of conviviality. For 1664, it’s all about being French and proud of it (oui monsieur!). So, for all beer lovers who enjoy sharing a pint amongst friends without having to sacrifice their 6 packs (see what we did there!), L’Uzyne offered a 1664 0.0° paired with “healthy” meals provided by selected food partners. Finally, for Grimbergen, the most contemporary abbey beer in France, a real foodie activation around “food pairing” allowed the consumer to associate the product with a real gourmet moment. Convinced? The next round is on us!</summary></entry><entry xml:lang="en"><title type="html">Deliveroo</title><link href="https://www.luzyne.fr/work/deliveroo.html" rel="alternate" type="text/html" title="Deliveroo" /><published>2021-11-29T17:25:13-05:00</published><updated>2021-11-29T17:25:13-05:00</updated><id>https://www.luzyne.fr/work/deliveroo</id><content type="html" xml:base="https://www.luzyne.fr/work/deliveroo.html">&lt;div id=&quot;gallery-modal&quot;&gt;
+  &lt;a href=&quot;#gallery&quot; class=&quot;close&quot;&gt;&lt;span class=&quot;close-btn close-modal&quot;&gt;&lt;svg viewBox=&quot;0 0 32 32&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; clip-rule=&quot;evenodd&quot; d=&quot;M16.1924 14.7782L8.41421 7L7 8.41421L14.7782 16.1924L7 23.9706L8.41421 25.3848L16.1924 17.6066L23.9706 25.3848L25.3848 23.9706L17.6066 16.1924L25.3848 8.41422L23.9706 7L16.1924 14.7782Z&quot; fill=&quot;white&quot; /&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/a&gt;
+  &lt;div class=&quot;modal-content&quot;&gt;
+    &lt;ul class=&quot;slider&quot;&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+          &lt;div class=&quot;slide__container landscape&quot; style=&quot;width: 124vh; height: 70vh;&quot;&gt;&lt;iframe class=&quot;vimeo&quot; src=&quot;https://player.vimeo.com/video/728851100?h=fd649e10ba&amp;amp;badge=0&amp;amp;autopause=0&amp;amp;player_id=0&amp;amp;app_id=58479&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen; picture-in-picture&quot; allowfullscreen=&quot;&quot; style=&quot;position:absolute;top:0;left:0;width:100%;height:100%;&quot; title=&quot;Deliveroo_ luzynefr.mp4&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+        &lt;figure class=&quot;slide__container&quot;&gt;
+          &lt;img src=&quot;/assets/images/deliveroo/deliveroo_001.jpg&quot; alt=&quot;one&quot; /&gt;
+        &lt;/figure&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+        &lt;figure class=&quot;slide__container&quot;&gt;&lt;img src=&quot;/assets/images/deliveroo/deliveroo_002.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/figure&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+        &lt;figure class=&quot;slide__container&quot;&gt;&lt;img src=&quot;/assets/images/deliveroo/deliveroo_003.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/figure&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+        &lt;figure class=&quot;slide__container&quot;&gt;&lt;img src=&quot;/assets/images/deliveroo/deliveroo_004.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/figure&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+        &lt;figure class=&quot;slide__container&quot;&gt;&lt;img src=&quot;/assets/images/deliveroo/deliveroo_005.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/figure&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+        &lt;figure class=&quot;slide__container&quot;&gt;&lt;img src=&quot;/assets/images/deliveroo/deliveroo_006.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/figure&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+        &lt;figure class=&quot;slide__container&quot;&gt;&lt;img src=&quot;/assets/images/deliveroo/deliveroo_007.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/figure&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+        &lt;figure class=&quot;slide__container&quot;&gt;&lt;img src=&quot;/assets/images/deliveroo/deliveroo_008.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/figure&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+        &lt;figure class=&quot;slide__container&quot;&gt;&lt;img src=&quot;/assets/images/deliveroo/deliveroo_009.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/figure&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+        &lt;figure class=&quot;slide__container&quot;&gt;&lt;img src=&quot;/assets/images/deliveroo/deliveroo_010.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/figure&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+        &lt;figure class=&quot;slide__container&quot;&gt;&lt;img src=&quot;/assets/images/deliveroo/deliveroo_011.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/figure&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+        &lt;figure class=&quot;slide__container&quot;&gt;&lt;img src=&quot;/assets/images/deliveroo/deliveroo_012.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/figure&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;pre-gallery&quot; class=&quot;col-left&quot;&gt;
+&lt;a id=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;img src=&quot;/assets/images/deliveroo/deliveroo_a.jpg&quot; class=&quot;parallax-slow&quot; alt=&quot;image One&quot; /&gt;&lt;/a&gt;
+&lt;img src=&quot;/assets/images/deliveroo/deliveroo_b.jpg&quot; class=&quot;parallax-fast&quot; alt=&quot;image Two&quot; /&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;col-right padding-top reveal&quot;&gt;
+  &lt;p&gt;“Where everybody knows your name…” How to deal with a brand that has chosen to service over 100 new French towns?&lt;/p&gt;
+
+  &lt;p&gt;&lt;strong&gt;That’s the challenge L’Uzyne rose to for Deliveroo by putting together an ultra-targeted, multi-local action plan!&lt;/strong&gt;&lt;/p&gt;
+
+  &lt;p&gt;By combining tactical local activations (local partnerships, festivals…) and strategic roll-outs across 100 French towns (street marketing, social media, relationship marketing…), the brand could reach its target directly and embody its will to be closer than ever to the consumer &lt;strong&gt;#livrépartout&lt;/strong&gt;.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;gallery&quot; class=&quot;col-whole padding-top margin-bottom reveal&quot;&gt;
+&lt;div id=&quot;gallery-container&quot;&gt;&lt;div class=&quot;post-gallery&quot;&gt;
+  &lt;figure class=&quot;card video&quot;&gt;&lt;img src=&quot;/assets/images/deliveroo/deliveroo_000.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot; data-vimeo=&quot;&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/deliveroo/deliveroo_001.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/deliveroo/deliveroo_002.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/deliveroo/deliveroo_003.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/deliveroo/deliveroo_004.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/deliveroo/deliveroo_005.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/deliveroo/deliveroo_006.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/deliveroo/deliveroo_007.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/deliveroo/deliveroo_008.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/deliveroo/deliveroo_009.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/deliveroo/deliveroo_010.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/deliveroo/deliveroo_011.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/deliveroo/deliveroo_012.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;col-left&quot;&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;5 600 Km cycled&lt;br /&gt;200+ hired cyclists&lt;/p&gt;
+  &lt;/blockquote&gt;
+  &lt;ul class=&quot;tags&quot;&gt;
+  &lt;li&gt;Street Marketing&lt;/li&gt;
+  &lt;li&gt;Commercial Animation&lt;/li&gt;
+  &lt;li&gt;Festivals&lt;/li&gt;
+  &lt;li&gt;Multi-local Activation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;col-right padding-top margin-bottom reveal&quot;&gt;
+  &lt;p&gt;Thanks to this strategy and over just a few months, Deliveroo took part in the 5&lt;sup&gt;th&lt;/sup&gt; edition of the Lyon Street Food Festival, did a stunt with McDonald’s and activated dozens of street marketing campaigns with fake delivery riders!&lt;/p&gt;
+
+  &lt;p&gt;&lt;strong&gt;The perfect Deliveroo × L’Uzyne recipe: proximity and engagement!&lt;/strong&gt;&lt;/p&gt;
+
+  &lt;p&gt;An ongoing operation, so when you’re wandering around, keep your eyes peeled as you might cross paths with one of our Deliveroo ambassadors!&lt;/p&gt;
+
+&lt;/div&gt;</content><author><name></name></author><category term="work" /><summary type="html">“Where everybody knows your name…” How to deal with a brand that has chosen to service over 100 new French towns? That’s the challenge L’Uzyne rose to for Deliveroo by putting together an ultra-targeted, multi-local action plan! By combining tactical local activations (local partnerships, festivals…) and strategic roll-outs across 100 French towns (street marketing, social media, relationship marketing…), the brand could reach its target directly and embody its will to be closer than ever to the consumer #livrépartout. 5 600 Km cycled200+ hired cyclists Street Marketing Commercial Animation Festivals Multi-local Activation Thanks to this strategy and over just a few months, Deliveroo took part in the 5th edition of the Lyon Street Food Festival, did a stunt with McDonald’s and activated dozens of street marketing campaigns with fake delivery riders! The perfect Deliveroo × L’Uzyne recipe: proximity and engagement! An ongoing operation, so when you’re wandering around, keep your eyes peeled as you might cross paths with one of our Deliveroo ambassadors!</summary></entry><entry xml:lang="en"><title type="html">Milka</title><link href="https://www.luzyne.fr/work/milka.html" rel="alternate" type="text/html" title="Milka" /><published>2021-11-29T17:25:13-05:00</published><updated>2021-11-29T17:25:13-05:00</updated><id>https://www.luzyne.fr/work/milka</id><content type="html" xml:base="https://www.luzyne.fr/work/milka.html">&lt;div id=&quot;gallery-modal&quot;&gt;
+  &lt;a href=&quot;#gallery&quot; class=&quot;close close-modal&quot;&gt;&lt;span class=&quot;close-btn&quot;&gt;&lt;svg viewBox=&quot;0 0 32 32&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; clip-rule=&quot;evenodd&quot; d=&quot;M16.1924 14.7782L8.41421 7L7 8.41421L14.7782 16.1924L7 23.9706L8.41421 25.3848L16.1924 17.6066L23.9706 25.3848L25.3848 23.9706L17.6066 16.1924L25.3848 8.41422L23.9706 7L16.1924 14.7782Z&quot; fill=&quot;white&quot; /&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/a&gt;
+  &lt;div class=&quot;modal-content&quot;&gt;
+    &lt;ul class=&quot;slider&quot;&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+        &lt;figure class=&quot;slide__container&quot;&gt;&lt;img src=&quot;/assets/images/milka/milka_0001.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/figure&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+        &lt;figure class=&quot;slide__container&quot;&gt;&lt;img src=&quot;/assets/images/milka/milka_0002.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/figure&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+        &lt;figure class=&quot;slide__container&quot;&gt;&lt;img src=&quot;/assets/images/milka/milka_0003.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/figure&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+        &lt;figure class=&quot;slide__container&quot;&gt;&lt;img src=&quot;/assets/images/milka/milka_004.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/figure&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+        &lt;figure class=&quot;slide__container&quot;&gt;&lt;img src=&quot;/assets/images/milka/milka_005.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/figure&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+        &lt;figure class=&quot;slide__container&quot;&gt;&lt;img src=&quot;/assets/images/milka/milka_0005.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/figure&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+        &lt;figure class=&quot;slide__container&quot;&gt;&lt;img src=&quot;/assets/images/milka/milka_006.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/figure&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+        &lt;figure class=&quot;slide__container&quot;&gt;&lt;img src=&quot;/assets/images/milka/milka_0006.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/figure&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+        &lt;figure class=&quot;slide__container&quot;&gt;&lt;img src=&quot;/assets/images/milka/milka_007.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/figure&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+        &lt;figure class=&quot;slide__container&quot;&gt;&lt;img src=&quot;/assets/images/milka/milka_0007.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/figure&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+        &lt;figure class=&quot;slide__container&quot;&gt;&lt;img src=&quot;/assets/images/milka/milka_008.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/figure&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+        &lt;figure class=&quot;slide__container&quot;&gt;&lt;img src=&quot;/assets/images/milka/milka_0008.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/figure&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+        &lt;figure class=&quot;slide__container&quot;&gt;&lt;img src=&quot;/assets/images/milka/milka_009.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/figure&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+        &lt;figure class=&quot;slide__container&quot;&gt;&lt;img src=&quot;/assets/images/milka/milka_0009.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/figure&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+        &lt;figure class=&quot;slide__container&quot;&gt;&lt;img src=&quot;/assets/images/milka/milka_010.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/figure&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+        &lt;figure class=&quot;slide__container&quot;&gt;&lt;img src=&quot;/assets/images/milka/milka_0010.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/figure&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+        &lt;figure class=&quot;slide__container&quot;&gt;&lt;img src=&quot;/assets/images/milka/milka_011.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/figure&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+        &lt;figure class=&quot;slide__container&quot;&gt;&lt;img src=&quot;/assets/images/milka/milka_0011.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/figure&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+        &lt;figure class=&quot;slide__container&quot;&gt;&lt;img src=&quot;/assets/images/milka/milka_012.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/figure&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+        &lt;figure class=&quot;slide__container&quot;&gt;&lt;img src=&quot;/assets/images/milka/milka_0012.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/figure&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+        &lt;figure class=&quot;slide__container&quot;&gt;&lt;img src=&quot;/assets/images/milka/milka_013.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/figure&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+        &lt;figure class=&quot;slide__container&quot;&gt;&lt;img src=&quot;/assets/images/milka/milka_0013.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/figure&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+        &lt;figure class=&quot;slide__container&quot;&gt;&lt;img src=&quot;/assets/images/milka/milka_014.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/figure&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+        &lt;figure class=&quot;slide__container&quot;&gt;&lt;img src=&quot;/assets/images/milka/milka_015.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/figure&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+        &lt;figure class=&quot;slide__container&quot;&gt;&lt;img src=&quot;/assets/images/milka/milka_016.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/figure&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;pre-gallery&quot; class=&quot;col-left&quot;&gt;
+&lt;a id=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;img src=&quot;/assets/images/milka/milka_b.jpg&quot; class=&quot;parallax-fast&quot; alt=&quot;image Two&quot; /&gt;&lt;/a&gt;
+&lt;img src=&quot;/assets/images/milka/milka_a.jpg&quot; class=&quot;parallax-slow&quot; alt=&quot;image One&quot; /&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;col-right padding-top reveal&quot;&gt;
+  &lt;p&gt;It all started in 1996 when Milka became a sponsor of the Ski world cup. An obvious partnership for the mauve cow brand which has always been promoting its good Alps milk and iconic groundhog.&lt;/p&gt;
+
+  &lt;p&gt;Obvious for sure, but with such vast possibilities that the main challenge was to find a global meaning to avoid off-piste! (also obvious, but we had to).&lt;/p&gt;
+
+  &lt;p&gt;&lt;strong&gt;That’s how the Pistes Mauves were born, playful trails to raise awareness amongst all ages and familiarize them with the mountains!&lt;/strong&gt;&lt;/p&gt;
+
+  &lt;p&gt;More than a meeting with the public, this activation became the starting point of an adventure that flew way beyond the snow-capped summits, and landed straight in the heart of city dwellers!&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;gallery&quot; class=&quot;col-whole padding-top margin-bottom reveal&quot;&gt;
+&lt;div id=&quot;gallery-container&quot;&gt;&lt;div class=&quot;post-gallery&quot;&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/milka/milka_0001.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/milka/milka_0002.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/milka/milka_0003.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/milka/milka_004.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/milka/milka_005.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/milka/milka_0005.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/milka/milka_006.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/milka/milka_0006.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/milka/milka_007.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/milka/milka_0007.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/milka/milka_008.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/milka/milka_0008.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/milka/milka_009.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/milka/milka_0009.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/milka/milka_010.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/milka/milka_0010.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/milka/milka_011.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/milka/milka_0011.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/milka/milka_012.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/milka/milka_0012.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/milka/milka_013.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/milka/milka_0013.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/milka/milka_014.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/milka/milka_015.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/milka/milka_016.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;col-left&quot;&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;The Milka Pistes Mauves, a must for families ;)&lt;/p&gt;
+  &lt;/blockquote&gt;
+  &lt;ul class=&quot;tags&quot;&gt;
+  &lt;li&gt;Ski Resorts Tour &lt;/li&gt;
+  &lt;li&gt;Roadshow&lt;/li&gt;
+  &lt;li&gt;Sponsorship Activation&lt;/li&gt;
+  &lt;li&gt;Commercial Animation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;col-right padding-top margin-bottom reveal&quot;&gt;
+  &lt;p&gt;Did you know? Over the years, the Pistes Mauves became a real unmissable meeting point for families and the concept transformed across different formats: afternoon snacks during the school holidays, mauve trails for hikers and even a private hire of the Stade de France for an XXL event in partnership with Secours Populaire.&lt;/p&gt;
+
+  &lt;p&gt;&lt;strong&gt;In 2009, Milka also became the main sponsor for the Ski world championship in Val d’Isère. Beyond painting the entire station mauve, L’Uzyne helped the brand create synergies with prestigious sportsmen through sport sponsorship consultancy projects.&lt;/strong&gt;&lt;/p&gt;
+
+  &lt;p&gt;Milka and L’Uzyne—a tale of slow branding done right that reminds us that to reach new heights, you sometimes have to take your time!&lt;/p&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="work" /><summary type="html">It all started in 1996 when Milka became a sponsor of the Ski world cup. An obvious partnership for the mauve cow brand which has always been promoting its good Alps milk and iconic groundhog. Obvious for sure, but with such vast possibilities that the main challenge was to find a global meaning to avoid off-piste! (also obvious, but we had to). That’s how the Pistes Mauves were born, playful trails to raise awareness amongst all ages and familiarize them with the mountains! More than a meeting with the public, this activation became the starting point of an adventure that flew way beyond the snow-capped summits, and landed straight in the heart of city dwellers! The Milka Pistes Mauves, a must for families ;) Ski Resorts Tour Roadshow Sponsorship Activation Commercial Animation Did you know? Over the years, the Pistes Mauves became a real unmissable meeting point for families and the concept transformed across different formats: afternoon snacks during the school holidays, mauve trails for hikers and even a private hire of the Stade de France for an XXL event in partnership with Secours Populaire. In 2009, Milka also became the main sponsor for the Ski world championship in Val d’Isère. Beyond painting the entire station mauve, L’Uzyne helped the brand create synergies with prestigious sportsmen through sport sponsorship consultancy projects. Milka and L’Uzyne—a tale of slow branding done right that reminds us that to reach new heights, you sometimes have to take your time!</summary></entry><entry xml:lang="en"><title type="html">Citroën</title><link href="https://www.luzyne.fr/work/citroen.html" rel="alternate" type="text/html" title="Citroën" /><published>2021-11-29T17:25:13-05:00</published><updated>2021-11-29T17:25:13-05:00</updated><id>https://www.luzyne.fr/work/citroen</id><content type="html" xml:base="https://www.luzyne.fr/work/citroen.html">&lt;div id=&quot;gallery-modal&quot;&gt;
+  &lt;a href=&quot;#gallery&quot; class=&quot;close close-modal&quot;&gt;&lt;span class=&quot;close-btn&quot;&gt;&lt;svg viewBox=&quot;0 0 32 32&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; clip-rule=&quot;evenodd&quot; d=&quot;M16.1924 14.7782L8.41421 7L7 8.41421L14.7782 16.1924L7 23.9706L8.41421 25.3848L16.1924 17.6066L23.9706 25.3848L25.3848 23.9706L17.6066 16.1924L25.3848 8.41422L23.9706 7L16.1924 14.7782Z&quot; fill=&quot;white&quot; /&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/a&gt;
+  &lt;div class=&quot;modal-content&quot;&gt;
+    &lt;ul class=&quot;slider&quot;&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+          &lt;div class=&quot;slide__container landscape&quot; style=&quot;width: 124vh; height: 70vh;&quot;&gt;&lt;iframe class=&quot;vimeo&quot; src=&quot;https://player.vimeo.com/video/728851131?h=625fd7148c&amp;amp;badge=0&amp;amp;autopause=0&amp;amp;player_id=0&amp;amp;app_id=58479&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen; picture-in-picture&quot; allowfullscreen=&quot;&quot; style=&quot;position:absolute;top:0;left:0;width:100%;height:100%;&quot; title=&quot;ACT_ luzynefr&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+        &lt;figure class=&quot;slide__container&quot;&gt;
+          &lt;img src=&quot;/assets/images/citroen/Citroen_001.jpg&quot; alt=&quot;one&quot; /&gt;&lt;figcaption&gt;Photography: Vincent Curutchet&lt;/figcaption&gt;
+        &lt;/figure&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+        &lt;figure class=&quot;slide__container&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_002.jpg&quot; alt=&quot;one&quot; /&gt;&lt;figcaption&gt;Photography: Charly Lopez, Crédit : A.S.O./ Charly Lopez&lt;/figcaption&gt;&lt;/figure&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+          &lt;div class=&quot;slide__container landscape&quot; style=&quot;width: 70vh; height: 70vh;&quot;&gt;&lt;iframe class=&quot;vimeo&quot; src=&quot;https://player.vimeo.com/video/659756459?h=030d037b39&amp;amp;badge=0&amp;amp;autopause=0&amp;amp;player_id=0&amp;amp;app_id=58479&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen; picture-in-picture&quot; allowfullscreen=&quot;&quot; style=&quot;position:absolute;top:0;left:0;width:100%;height:100%;&quot; title=&quot;STUNT_CITROEN _ACT&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+        &lt;figure class=&quot;slide__container&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_003.jpg&quot; alt=&quot;one&quot; /&gt;&lt;figcaption&gt;Photography: Charly Lopez, Crédit : A.S.O./ Charly Lopez&lt;/figcaption&gt;&lt;/figure&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+        &lt;figure class=&quot;slide__container&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_004.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/figure&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+        &lt;figure class=&quot;slide__container&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_005.jpg&quot; alt=&quot;one&quot; /&gt;&lt;figcaption&gt;Photography: Vincent Curutchet&lt;/figcaption&gt;&lt;/figure&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+        &lt;figure class=&quot;slide__container&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_006.jpg&quot; alt=&quot;one&quot; /&gt;&lt;figcaption&gt;Photography: Charly Lopez, Crédit : A.S.O./ Charly Lopez&lt;/figcaption&gt;&lt;/figure&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+        &lt;figure class=&quot;slide__container&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_007.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/figure&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+        &lt;figure class=&quot;slide__container&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_008.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/figure&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+        &lt;figure class=&quot;slide__container&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_009.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/figure&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+        &lt;figure class=&quot;slide__container&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_010.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/figure&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+        &lt;figure class=&quot;slide__container&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_011.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/figure&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+        &lt;figure class=&quot;slide__container&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_012.jpg&quot; alt=&quot;one&quot; /&gt;&lt;/figure&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;slide&quot;&gt;
+        &lt;figure class=&quot;slide__container&quot;&gt;&lt;img src=&quot;/assets/images/citroen/one.jpg&quot; alt=&quot;one&quot; /&gt;&lt;figcaption&gt;Photography: Vincent Curutchet&lt;/figcaption&gt;&lt;/figure&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;pre-gallery&quot; class=&quot;col-left&quot;&gt;
+&lt;a id=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;img src=&quot;/assets/images/citroen/one.jpg&quot; class=&quot;parallax-slow&quot; alt=&quot;image One&quot; /&gt;
+&lt;img src=&quot;/assets/images/citroen/two.gif&quot; class=&quot;parallax-fast&quot; alt=&quot;image Two&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;col-right padding-top reveal&quot;&gt;
+  &lt;p&gt;“Generate encounters”. For many, it’s become part of the vocabulary, a reassuring promise that sounds great but doesn’t guarantee much. That’s why L’Uzyne prefers to create synergies between brand and client, and sometimes even with advertisers.&lt;/p&gt;
+
+  &lt;p&gt;That’s what happened in 2020, when AG2R La Mondiale was looking for a co-namer for its cycling team and met Citroën through the agency, while their rally partnership with Citroën racing was just about to end!&lt;/p&gt;
+
+  &lt;p&gt;&lt;strong&gt;A few weeks (and hours of work!) later, the partnership was signed and both brands hit the road together for their first stage together: Le Tour de France.&lt;/strong&gt;&lt;/p&gt;
+
+  &lt;p&gt;On the schedule, setting up the team’s caravan, renamed AG2R CITROEN Team, a 360 activation around the Tour de France and, of course, leading numerous ground and digital operations, both for the public and partners.&lt;/p&gt;
+
+  &lt;p&gt;A positive spirit reinforced by the success of the digital campaign that announced the partnership: a stunt in the middle of the city that transformed everyday cyclists into actual cyclists from the AG2R Citroën Team!&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;gallery&quot; class=&quot;col-whole padding-top margin-bottom reveal&quot;&gt;
+&lt;div id=&quot;gallery-container&quot;&gt;&lt;div class=&quot;post-gallery&quot;&gt;
+  &lt;figure class=&quot;card video&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_000.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot; data-vimeo=&quot;&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_001.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_002.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card video&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_013.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot; data-vimeo=&quot;&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_003.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_004.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_005.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_006.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_007.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_008.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_009.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_010.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_011.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/citroen/Citroen_012.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;card image&quot;&gt;&lt;img src=&quot;/assets/images/citroen/one.jpg&quot; alt=&quot;one&quot; /&gt;&lt;a class=&quot;open-modal&quot; href=&quot;#gallery-modal&quot;&gt;&lt;/a&gt;&lt;/figure&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;col-left&quot;&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;“An enticing 2021 season for the AG2R CITROËN Team”&lt;/p&gt;
+  &lt;/blockquote&gt;
+  &lt;p class=&quot;caption&quot;&gt;Vincent Lavenu&amp;nbsp;— Team manager&lt;/p&gt;
+  &lt;ul class=&quot;tags&quot;&gt;
+  &lt;li&gt;Sponsoring Activation&lt;/li&gt;
+  &lt;li&gt;Sporting Event&lt;/li&gt;
+  &lt;li&gt;Digital&lt;/li&gt;
+  &lt;li&gt;Network Activation&lt;/li&gt;
+  &lt;li&gt;Tour de France&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;col-right padding-top margin-bottom reveal&quot;&gt;
+  &lt;p&gt;The Tour de France was at the heart of this first year’s activations: 21 caravane stages, 40 Atelier vehicle animations, 50 theatrical concessions, 100 000 goodies given and a beautiful cover for our digital stunt! Tomorrow, the activations should see the light of day on all international cycling tracks (La Vuelta, Giro,…)&lt;/p&gt;
+
+  &lt;p&gt;From French roads to the heart of concessions, the partnership between the two brands is writing a new history, one that is committed and sincere, for cycling and car lovers!&lt;/p&gt;
+
+  &lt;p&gt;Basically, the wheels are in motion ;)&lt;/p&gt;
+
+&lt;/div&gt;</content><author><name></name></author><category term="work" /><summary type="html">Photography: Vincent Curutchet Photography: Charly Lopez, Crédit : A.S.O./ Charly Lopez Photography: Charly Lopez, Crédit : A.S.O./ Charly Lopez Photography: Vincent Curutchet Photography: Charly Lopez, Crédit : A.S.O./ Charly Lopez Photography: Vincent Curutchet “Generate encounters”. For many, it’s become part of the vocabulary, a reassuring promise that sounds great but doesn’t guarantee much. That’s why L’Uzyne prefers to create synergies between brand and client, and sometimes even with advertisers. That’s what happened in 2020, when AG2R La Mondiale was looking for a co-namer for its cycling team and met Citroën through the agency, while their rally partnership with Citroën racing was just about to end! A few weeks (and hours of work!) later, the partnership was signed and both brands hit the road together for their first stage together: Le Tour de France. On the schedule, setting up the team’s caravan, renamed AG2R CITROEN Team, a 360 activation around the Tour de France and, of course, leading numerous ground and digital operations, both for the public and partners. A positive spirit reinforced by the success of the digital campaign that announced the partnership: a stunt in the middle of the city that transformed everyday cyclists into actual cyclists from the AG2R Citroën Team! “An enticing 2021 season for the AG2R CITROËN Team” Vincent Lavenu&amp;nbsp;— Team manager Sponsoring Activation Sporting Event Digital Network Activation Tour de France The Tour de France was at the heart of this first year’s activations: 21 caravane stages, 40 Atelier vehicle animations, 50 theatrical concessions, 100 000 goodies given and a beautiful cover for our digital stunt! Tomorrow, the activations should see the light of day on all international cycling tracks (La Vuelta, Giro,…) From French roads to the heart of concessions, the partnership between the two brands is writing a new history, one that is committed and sincere, for cycling and car lovers! Basically, the wheels are in motion ;)</summary></entry></feed>
