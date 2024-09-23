@@ -263,7 +263,9 @@ table td { border: 1px solid #999999; }
 
 .site-nav #nav-trigger ~ .trigger-content .nav-lang a:hover { color: rgba(255, 255, 255, 0.5); -webkit-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); -moz-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); -ms-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); -o-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); }
 
-.site-nav #nav-trigger ~ .trigger-content .nav-footer { font-size: 21.375px; margin-bottom: 15px; display: inline-block; position: absolute; bottom: 90px; }
+.site-nav #nav-trigger ~ .trigger-content .nav-footer { width: 100%; position: absolute; display: flex; justify-content: space-between; align-items: end; bottom: 90px; margin-bottom: 15px; }
+
+.site-nav #nav-trigger ~ .trigger-content .nav-footer h2 { font-size: 21.375px; }
 
 .site-nav #nav-trigger:checked ~ .trigger-background { pointer-events: auto; opacity: 1; z-index: 2; right: 0px; margin-right: 0; -webkit-transition: all 0.2s cubic-bezier(0.25, 1, 0.5, 1); -moz-transition: all 0.2s cubic-bezier(0.25, 1, 0.5, 1); -ms-transition: all 0.2s cubic-bezier(0.25, 1, 0.5, 1); -o-transition: all 0.2s cubic-bezier(0.25, 1, 0.5, 1); transition: all 0.2s cubic-bezier(0.25, 1, 0.5, 1); }
 
@@ -339,6 +341,10 @@ table td { border: 1px solid #999999; }
 
 /** Site footer */
 .site-footer { position: relative; z-index: 14; padding: 30px 0; }
+
+.site-footer .wrap-out { display: flex; align-items: baseline; justify-content: space-between; }
+
+@media screen and (max-width: 600px) { .site-footer .wrap-out { display: inline-block; } }
 
 .footer-heading { font-size: 21.375px; display: inline-block; }
 
@@ -498,7 +504,7 @@ a#open-modal { display: inline-block; }
 
 .post-gallery .card { position: relative; display: inline-block; height: 40vh; width: auto; padding-right: 1vh; }
 
-.post-gallery .card img { position: relative; height: 40vh; width: auto; opacity: 0.6; -webkit-transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1); -moz-transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1); -ms-transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1); -o-transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1); transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1); }
+.post-gallery .card img { position: relative; height: 40vh; width: auto; object-fit: cover; opacity: 0.6; -webkit-transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1); -moz-transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1); -ms-transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1); -o-transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1); transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1); }
 
 @media screen and (max-width: 600px) { .post-gallery .card img { opacity: 1; } }
 
@@ -572,6 +578,8 @@ a#open-modal { display: inline-block; }
 
 @media screen and (max-width: 600px) { .slider .flickity-prev-next-button.previous { left: 7.5px; } }
 
+.slider .flickity-prev-next-button[disabled] { opacity: 0; }
+
 .slider .flickity-prev-next-button .flickity-button-icon { left: 5%; top: 5%; width: 90%; height: 90%; }
 
 .slider .flickity-button { background-color: transparent; color: #fff; -webkit-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); -moz-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); -ms-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); -o-transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); }
@@ -584,15 +592,19 @@ a#open-modal { display: inline-block; }
 
 #about-modal .slide .col-left { margin-top: 300px; -webkit-transition: all 4s cubic-bezier(0.25, 1, 0.5, 1); -moz-transition: all 4s cubic-bezier(0.25, 1, 0.5, 1); -ms-transition: all 4s cubic-bezier(0.25, 1, 0.5, 1); -o-transition: all 4s cubic-bezier(0.25, 1, 0.5, 1); transition: all 4s cubic-bezier(0.25, 1, 0.5, 1); }
 
-#about-modal .slide .about-logo { display: inline-block; height: 120px !important; margin-bottom: 120px; -webkit-transition: all 4s cubic-bezier(0.25, 1, 0.5, 1); -moz-transition: all 4s cubic-bezier(0.25, 1, 0.5, 1); -ms-transition: all 4s cubic-bezier(0.25, 1, 0.5, 1); -o-transition: all 4s cubic-bezier(0.25, 1, 0.5, 1); transition: all 4s cubic-bezier(0.25, 1, 0.5, 1); }
+#about-modal .slide .about-logo { display: inline-block; height: 150px !important; margin-bottom: 120px; -webkit-transition: all 4s cubic-bezier(0.25, 1, 0.5, 1); -moz-transition: all 4s cubic-bezier(0.25, 1, 0.5, 1); -ms-transition: all 4s cubic-bezier(0.25, 1, 0.5, 1); -o-transition: all 4s cubic-bezier(0.25, 1, 0.5, 1); transition: all 4s cubic-bezier(0.25, 1, 0.5, 1); }
 
 #about-modal .slide .slide__container .text-container { display: grid; justify-content: space-between; align-items: start; justify-items: start; grid-template-columns: 3fr 2fr; column-gap: 60px; overflow: scroll; height: 100vh; padding: 15vh 10vw 10vh; }
+
+#about-modal .slide .slide__container .text-container ul { list-style: disc; }
+
+#about-modal .slide .slide__container .text-container ul li { margin-left: 1em; }
 
 #about-modal .slide .slide__container .text-container p, #about-modal .slide .slide__container .text-container li { color: rgba(255, 255, 255, 0.8); }
 
 #about-modal .slide .slide__container .text-container:after { content: ""; position: absolute; width: 100%; height: 10vh; left: 0; bottom: 0; background: linear-gradient(0deg, #0000fa 0%, rgba(0, 0, 250, 0) 100%); z-index: 100; }
 
-#about-modal .slide .slide__container .text-container:before { content: ""; position: absolute; width: 100%; height: 10vh; left: 0; top: 3vh; background: linear-gradient(180deg, #0000fa 0%, rgba(0, 0, 250, 0) 100%); z-index: 100; }
+#about-modal .slide .slide__container .text-container:before { content: ""; position: absolute; width: 100%; height: 10vh; left: 0; top: 0; background: linear-gradient(180deg, #0000fa 0%, rgba(0, 0, 250, 0) 100%); z-index: 100; }
 
 #about-modal .slide .slide__container .text-container .col-left { grid-column: 1; }
 
@@ -775,6 +787,10 @@ ul.post-list li h3 a:hover .hover_thumbnail { opacity: 1; margin-left: calc(567.
 .icon-email:hover img, .icon-phone:hover img { background-color: #fff; box-shadow: 0 4.75px 4.75px rgba(0, 0, 0, 0.5); -webkit-transition: all 0.2s cubic-bezier(0.25, 1, 0.5, 1); -moz-transition: all 0.2s cubic-bezier(0.25, 1, 0.5, 1); -ms-transition: all 0.2s cubic-bezier(0.25, 1, 0.5, 1); -o-transition: all 0.2s cubic-bezier(0.25, 1, 0.5, 1); transition: all 0.2s cubic-bezier(0.25, 1, 0.5, 1); }
 
 .vimeo { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+.bcorp { width: 180px; }
+
+.bcorp.blue > svg > rect, .bcorp.blue > svg > path { fill: white; }
 
 /** Syntax highlighting styles */
 .highlight { background: #000; }

@@ -170,9 +170,9 @@ function init(){
             beforeEnter(data) {
 
                 //Gallery
-                let gallery = document.getElementsByClassName('slider');
-                gallery = gallery[gallery.length-1];
-                var flktyHome = new Flickity( gallery, {
+                let about = document.getElementsByClassName('about-slider');
+                about = about[about.length-1];
+                var flktyHome = new Flickity( about, {
                     draggable: false,
                     //dragThreshold: 120,
                     wrapAround: true,
@@ -180,18 +180,11 @@ function init(){
                     arrowShape: 'M19.6915 51.9335L47.8165 80.0585L51.6835 76.1915L28.2264 52.7344H79V47.2656H28.2264L51.6835 23.8085L47.8165 19.9415L19.6915 48.0665L17.758 50L19.6915 51.9335Z'
                 });
 
-                document.getElementById('about-btn').onclick = function() {
-                    document.querySelector("meta[name='theme-color']").setAttribute("content", "#0000fa");
-                }
-
-                document.getElementById('about-sports').onclick = function() {
-                    flktyHome.selectCell( 0, true, true );
-                    document.querySelector("meta[name='theme-color']").setAttribute("content", "#0000fa");
-                }
-
-                document.getElementById('about-global-compact').onclick = function() {
-                    flktyHome.selectCell( 1, true, true );
-                    document.querySelector("meta[name='theme-color']").setAttribute("content", "#0000fa");
+                let openAboutModal = document.querySelectorAll('.open-about-modal');
+                for (var i = 0; i < openAboutModal.length; i++) {
+                    openAboutModal[i].onclick = function() {
+                        document.querySelector("meta[name='theme-color']").setAttribute("content", "#0000fa");
+                    }
                 }
 
                 let closeModal = document.getElementsByClassName('close-modal');
@@ -212,6 +205,7 @@ function init(){
                 let scrollLeft;
 
                 slider.addEventListener('mousedown', (e) => {
+                    e.preventDefault();
                     isDown = true;
                     slider.classList.add('active');
                     startX = e.pageX - slider.offsetLeft;
@@ -278,6 +272,26 @@ function init(){
 
 
 
+                //About slider
+                let about = document.getElementsByClassName('about-slider');
+                about = about[about.length-1];
+                var flktyHome = new Flickity( about, {
+                    draggable: false,
+                    //dragThreshold: 120,
+                    wrapAround: true,
+                    imagesLoaded: true,
+                    arrowShape: 'M19.6915 51.9335L47.8165 80.0585L51.6835 76.1915L28.2264 52.7344H79V47.2656H28.2264L51.6835 23.8085L47.8165 19.9415L19.6915 48.0665L17.758 50L19.6915 51.9335Z'
+                });
+
+                let openAboutModal = document.querySelectorAll('.open-about-modal');
+                for (var i = 0; i < openAboutModal.length; i++) {
+                    openAboutModal[i].onclick = function() {
+                        document.querySelector("meta[name='theme-color']").setAttribute("content", "#0000fa");
+                    }
+                }
+
+
+
                 //Gallery
                 let gallery = document.getElementsByClassName('slider');
                 gallery = gallery[gallery.length-1];
@@ -338,7 +352,7 @@ function init(){
                 let cardsVideos = 0;
                 const cards = data.next.container.getElementsByClassName('open-modal');
                 for (var i = 0; i < cards.length; i++) {
-                    const slide = parseInt(String(i));
+                    const slide = parseInt(String(i)-1);
                     if (cards[i].hasAttribute("data-vimeo")) {
                         const id = parseInt(String(cardsVideos));
                         cards[i].onclick = function() {
